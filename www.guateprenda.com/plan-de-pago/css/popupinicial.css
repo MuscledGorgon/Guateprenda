@@ -1,0 +1,65 @@
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 10034; /* Sit on top */
+  padding-top: 0px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: transparent;
+  background-color: transparent;
+  
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: rgba(0, 0, 0, 0.65);
+  margin: auto;
+  padding: 20px;
+  padding-top:60px;
+  border: 0px solid #888;
+  width: 100%;
+  height:100%;
+
+
+}
+
+/* The Close Button */
+.closexx {
+	width:80px;
+	height:80px;
+	background-image:url(../img/popup/cruz.png);
+	background-repeat:no-repeat;
+	background-size: 80px 80px;
+	display:inline-block;
+	
+  color: #aaaaaa;
+  float: right;
+  font-size: 98px;
+  font-weight: bold;
+  color:#F00;
+}
+
+.closexx:hover,
+.closexx:focus {
+  color: #FFFFFF;
+  text-decoration: none;
+  cursor: pointer;
+  	background-image:url(../img/popup/cruzb.png);
+  
+}
+
+@media screen and (max-width: 600px) {
+.closexx {
+	width:60px;
+	height:60px;
+	background-size: 60px 60px;
+
+}
+  }
+}
+
+

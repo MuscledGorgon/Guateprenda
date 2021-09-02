@@ -1,0 +1,65 @@
+.espacio{
+  padding: 5px;
+}
+.top{
+  
+  padding-top: 5px;
+}
+.donde_pagar_tiendas{
+-webkit-box-sizing: content-box;
+-moz-box-sizing: content-box;
+box-sizing: content-box;        
+overflow: hidden;
+border: none;
+-webkit-border-radius: 20px 20px 20px 20px;
+border-radius: 20px 20px 20px 20px;
+font-family: Helvetica;
+font-size: 1.2vw;
+color: #fff;
+text-align: center;
+-o-text-overflow: ellipsis;
+text-overflow: ellipsis;
+background: #001688;
+-webkit-box-shadow: 0 0 0 0 rgba(0,0,0,0.3);
+box-shadow: 0 0 0 0 rgba(0,0,0,0.3);
+text-shadow: 1px 1px 1px rgba(0,0,0,0.2);          
+} 
+.marco_izquierdo span, strong{
+  font-size: 12px;
+}
+        .marco_izquierdo{
+          width: 100vw;
+          margin:12px;
+          -webkit-box-sizing: content-box;
+          -moz-box-sizing: content-box;
+          box-sizing: content-box;
+          padding: 1vw;
+          overflow: hidden;
+          border: none;
+          -webkit-border-radius: 20px 20px 20px 20px;
+          border-radius: 20px 20px 20px 20px;
+          font-family: Helvetica;
+          font-size: 1.5vw;
+          color: rgba(255,255,255,1);
+          text-align: center;
+          -o-text-overflow: ellipsis;
+          text-overflow: ellipsis;
+          background: #30429E;
+          -webkit-box-shadow: 0 0 0 0 rgba(0,0,0,0.3);
+          box-shadow: 0 0 0 0 rgba(0,0,0,0.3);
+          text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+          font-size:12px;
+          
+        } 
+
+
+@media (max-width: 576px) { 
+  .marco_izquierdo {
+    font-size:12px;
+  }
+
+}
+
+      
+
+       

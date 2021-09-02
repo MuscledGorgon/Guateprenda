@@ -1,0 +1,264 @@
+@charset "utf-8";
+body{
+	
+	background-image: url(../imgx/Fondo.jpg);
+	background-size: cover;
+	background-repeat:no-repeat;
+
+	
+}
+.contenedor{
+	width:100%;
+	height:100%;
+	text-align:center;
+	margin:0;
+
+}
+.subcontenedor{
+	width:100%;
+	max-width:1400px;
+	margin:auto;
+	height:auto;
+	text-align:center;
+
+
+	
+}
+.tabendiv{
+	width:40%;
+	height:auto;
+	margin:auto;
+	text-align:center;
+	float:left;
+}
+.imgdiv1{
+	width:59%;
+	height:auto;
+	margin:auto;
+	text-align:center;
+	float:left;
+}
+.imgdiv2{
+	width:20%;
+	height:auto;
+	margin:auto;
+	text-align:center;
+	float:left;
+}
+.TITULOimgdiv1{
+	font-size:25px;
+	color:#FF0;
+	padding-top:14px;
+	text-align:left;
+	font-family:"Arial Black", Gadget, sans-serif;
+}
+.tienecampo{
+	width:100%;
+	padding:0px;
+	height:auto;
+	text-align:center;
+	margin:auto;
+	background-color: transparent;
+	
+}
+.campodoble{
+	width:48%;
+	height:25px;
+	display:inline-block;
+	border: solid 1px #999999;
+	border-radius:5px;
+	margin:2px;
+	padding:0px;
+}
+.etiqudoble{
+	width:48%;
+	display:inline-block;
+	margin:0px;
+	text-align:left;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+.etiqucompleto{
+	width:98%;
+	display:inline-block;
+	margin:0px;
+	padding:0px;
+	text-align:left;	
+}
+.campocompleto{
+	width:98%;
+	height:25px;
+	display:inline-block;
+	border: solid 1px #999999;
+	border-radius:5px;
+	margin:2px;
+	padding:0px;	
+}
+
+.hrline{
+	border:solid 1px #FFFF00;
+}
+.tieneboton{
+	width:100%;
+	padding:0px;
+	height:auto;
+	text-align:left;
+	margin-top:7px;
+	margin-left:3px;
+	background-color: transparent;	
+}
+.botonenviar{
+	width:150px;
+	height:25px;
+	display:inline-block;
+	border: solid 1px #999999;
+	border-radius:5px;
+	margin:0px;
+	padding:0px;
+	color:#000;
+}
+
+.divdudasredes{
+	width:100%;	
+}
+#dudas{
+	width:30%;
+	color:#FF0;
+	font-size:14px;
+	text-align:left;
+	display:inline-block;
+	float:left;
+	margin-left:3px;
+	
+}
+#redes{
+	width:60%;
+	color:#FF0;
+	font-size:14px;
+	text-align:left;
+	display:inline-block;
+	float:left;
+	margin-left:0px;
+		
+}
+.spacer{
+	width:100%;
+	height:20px;
+	
+}
+.tienetitulo2{
+	width:100%;
+	text-align: justify;
+	color: #FFF;
+	font-size:12px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-bottom:10px;
+
+	
+}
+.circulored{
+	width:40px;
+	height:40px;
+	margin-left:25px;
+	
+	
+}
+.textoCAT{
+	color:#FF0;
+	font-size:12px;	
+}
+
+.textoSUBTITLE{
+	color: #FF0;
+	font-size:14px;
+	text-align:left;
+	padding-top:10px;
+	padding-bottom:10px;	
+}
+.textoTITLECAMPO{
+	color: #FFF;
+	font-size:14px;
+	text-align:left;	
+}
+
+.demo {
+height:2px;
+background: #FFFF00;
+background: -moz-linear-gradient(left, #FFFF00 0%, #002782 87%, #002782 100%);
+background: -webkit-linear-gradient(left, #FFFF00 0%, #002782 87%, #002782 100%);
+background: linear-gradient(to right, #FFFF00 0%, #002782 87%, #002782 100%);
+}
+
+#que1{
+	
+	padding-top:11px;
+	padding-bottom:10px;
+	display:none;
+
+}
+.selectsucursalesid{
+	width:100%;
+	height:auto;
+	border:solid 1px #FFFF00;
+	border-radius:15px;
+	text-align:left;
+}
+
+.botselect{
+	width:100%;
+	height:auto;
+	border:solid 1px #FFFF00;
+	border-radius:10px;
+	background-color: transparent;
+	text-align:left;
+	color:#FFFFFF;
+	padding:10px;
+	font-size:10px;
+}
+.botselect:hover{
+	background-color: #FF0;
+	color:#001688;
+	
+}
+.textselectienda{
+	
+	width:100%;
+	padding-top:5px;
+	padding-bottom:5px;
+	color:#FF0;
+	text-align:center;
+	
+	
+}
+
+
+@media only screen and (max-width: 1200px) {
+.tabendiv{
+	width:100%;
+	padding-top:20px;
+}
+.imgdiv1{
+	width:100%;
+}
+.imgdiv2{
+	width:100%;
+}
+
+.campodoble{
+	width:47%;
+
+}
+
+#que1{
+	
+	display:inline;
+}
+#que2{
+	
+	display:none;;
+
+}
+
+
+}
