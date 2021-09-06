@@ -459,53 +459,53 @@ btnCerrarPopupJALH.addEventListener('click', function() {
 
 //JUTIAPA
 
-var btnAbrirPopupJUT = document.getElementById('btn-jut'),
-  overlayJUT = document.getElementById('overlayJUT'),
-  popupJUT = document.getElementById('popupJUT'),
-  btnCerrarPopupJUT = document.getElementById('btn-cerrar-popupJUT');
+var btnAbrirPopupJUTH = document.getElementById('btn-jut'),
+  overlayJUTH = document.getElementById('overlayJUT'),
+  popupJUTH = document.getElementById('popupJUT'),
+  btnCerrarPopupJUTH = document.getElementById('btn-cerrar-popupJUT');
 
-btnAbrirPopupJUT.addEventListener('click', function() {
-  overlayJUT.classList.add('active')
-  popupJUT.classList.add('active')
+btnAbrirPopupJUTH.addEventListener('click', function() {
+  overlayJUTH.classList.add('active')
+  popupJUTH.classList.add('active')
 })
 
-btnCerrarPopupJUT.addEventListener('click', function() {
-  overlayJUT.classList.remove('active')
-  popupJUT.classList.remove('active')
+btnCerrarPopupJUTH.addEventListener('click', function() {
+  overlayJUTH.classList.remove('active')
+  popupJUTH.classList.remove('active')
 })
 
 //JUTIAPA MAPA
 
-var btnAbrirPopupJUT = document.getElementById('mapa-jut'),
-  overlayJUT = document.getElementById('overlayJUT'),
-  popupJUT = document.getElementById('popupJUT'),
-  btnCerrarPopupJUT = document.getElementById('btn-cerrar-popupJUT');
+var btnAbrirPopupJUTH = document.getElementById('mapa-jut'),
+  overlayJUTH = document.getElementById('overlayJUT'),
+  popupJUTH = document.getElementById('popupJUT'),
+  btnCerrarPopupJUTH = document.getElementById('btn-cerrar-popupJUT');
 
-btnAbrirPopupJUT.addEventListener('click', function() {
-  overlayJUT.classList.add('active')
-  popupJUT.classList.add('active')
+btnAbrirPopupJUTH.addEventListener('click', function() {
+  overlayJUTH.classList.add('active')
+  popupJUTH.classList.add('active')
 })
 
-btnCerrarPopupJUT.addEventListener('click', function() {
-  overlayJUT.classList.remove('active')
-  popupJUT.classList.remove('active')
+btnCerrarPopupJUTH.addEventListener('click', function() {
+  overlayJUTH.classList.remove('active')
+  popupJUTH.classList.remove('active')
 })
 
 //JUTIAPA MAPA FOOTER
 
-var btnAbrirPopupJUT = document.getElementById('mapa-jut2'),
-  overlayJUT = document.getElementById('overlayJUT'),
-  popupJUT = document.getElementById('popupJUT'),
-  btnCerrarPopupJUT = document.getElementById('btn-cerrar-popupJUT');
+var btnAbrirPopupJUTH = document.getElementById('mapa-jut2'),
+  overlayJUTH = document.getElementById('overlayJUT'),
+  popupJUTH = document.getElementById('popupJUT'),
+  btnCerrarPopupJUTH = document.getElementById('btn-cerrar-popupJUT');
 
-btnAbrirPopupJUT.addEventListener('click', function() {
-  overlayJUT.classList.add('active')
-  popupJUT.classList.add('active')
+btnAbrirPopupJUTH.addEventListener('click', function() {
+  overlayJUTH.classList.add('active')
+  popupJUTH.classList.add('active')
 })
 
-btnCerrarPopupJUT.addEventListener('click', function() {
-  overlayJUT.classList.remove('active')
-  popupJUT.classList.remove('active')
+btnCerrarPopupJUTH.addEventListener('click', function() {
+  overlayJUTH.classList.remove('active')
+  popupJUTH.classList.remove('active')
 })
 
 //PETÉN
