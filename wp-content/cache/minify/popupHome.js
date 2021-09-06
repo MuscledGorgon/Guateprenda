@@ -527,7 +527,7 @@ btnCerrarPopupPET.addEventListener('click', function() {
 
 //PETÉN MAPA
 
-var btnAbrirPopupPET = document.getElementById('mapa-peten'),
+var btnAbrirPopupPET = document.getElementById('mapa-pet'),
   overlayPET = document.getElementById('overlayPET'),
   popupPET = document.getElementById('popupPET'),
   btnCerrarPopupPET = document.getElementById('btn-cerrar-popupPET');
@@ -544,7 +544,7 @@ btnCerrarPopupPET.addEventListener('click', function() {
 
 //PETÉN MAPA FOOTER
 
-var btnAbrirPopupPET = document.getElementById('mapa-peten2'),
+var btnAbrirPopupPET = document.getElementById('mapa-pet2'),
   overlayPET = document.getElementById('overlayPET'),
   popupPET = document.getElementById('popupPET'),
   btnCerrarPopupPET = document.getElementById('btn-cerrar-popupPET');
