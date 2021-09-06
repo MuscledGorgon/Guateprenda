@@ -524,3 +524,37 @@ btnCerrarPopupPET.addEventListener('click', function() {
   overlayPET.classList.remove('active')
   popupPET.classList.remove('active')
 })
+
+//PETÉN MAPA
+
+var btnAbrirPopupPET = document.getElementById('mapa-pet'),
+  overlayPET = document.getElementById('overlayPET'),
+  popupPET = document.getElementById('popupPET'),
+  btnCerrarPopupPET = document.getElementById('btn-cerrar-popupPET');
+
+btnAbrirPopupPET.addEventListener('click', function() {
+  overlayPET.classList.add('active')
+  popupPET.classList.add('active')
+})
+
+btnCerrarPopupPET.addEventListener('click', function() {
+  overlayPET.classList.remove('active')
+  popupPET.classList.remove('active')
+})
+
+//PETÉN MAPA FOOTER
+
+var btnAbrirPopupPET = document.getElementById('mapa-pet2'),
+  overlayPET = document.getElementById('overlayPET'),
+  popupPET = document.getElementById('popupPET'),
+  btnCerrarPopupPET = document.getElementById('btn-cerrar-popupPET');
+
+btnAbrirPopupPET.addEventListener('click', function() {
+  overlayPET.classList.add('active')
+  popupPET.classList.add('active')
+})
+
+btnCerrarPopupPET.addEventListener('click', function() {
+  overlayPET.classList.remove('active')
+  popupPET.classList.remove('active')
+})
