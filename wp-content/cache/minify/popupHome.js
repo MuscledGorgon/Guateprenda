@@ -643,3 +643,20 @@ btnCerrarPopupQUEH.addEventListener('click', function() {
   overlayQUEH.classList.remove('active')
   popupQUEH.classList.remove('active')
 })
+
+//QUETZALTENANGO MAPA FOOTER
+
+var btnAbrirPopupQUEH = document.getElementById('mapa-quetz2'),
+  overlayQUEH = document.getElementById('overlayQUE'),
+  popupQUEH = document.getElementById('popupQUE'),
+  btnCerrarPopupQUEH = document.getElementById('btn-cerrar-popupQUE');
+
+btnAbrirPopupQUEH.addEventListener('click', function() {
+  overlayQUEH.classList.add('active')
+  popupQUEH.classList.add('active')
+})
+
+btnCerrarPopupQUEH.addEventListener('click', function() {
+  overlayQUEH.classList.remove('active')
+  popupQUEH.classList.remove('active')
+})
