@@ -593,7 +593,7 @@ btnCerrarPopupPROH.addEventListener('click', function() {
   popupPROH.classList.remove('active')
 })
 
-//EL PROGRESO MAPA
+//EL PROGRESO MAPA FOOTER
 
 var btnAbrirPopupPROH = document.getElementById('mapa-pro2'),
   overlayPROH = document.getElementById('overlayPRO'),
