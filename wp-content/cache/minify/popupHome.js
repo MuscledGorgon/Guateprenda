@@ -612,7 +612,6 @@ btnCerrarPopupPROH.addEventListener('click', function() {
 
 //QUETZALTENANGO
 
-
 var btnAbrirPopupQUEH = document.getElementById('btn-quetz'),
   overlayQUEH = document.getElementById('overlayQUE'),
   popupQUEH = document.getElementById('popupQUE'),
