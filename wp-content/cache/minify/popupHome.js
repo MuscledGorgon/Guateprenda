@@ -558,3 +558,54 @@ btnCerrarPopupPETH.addEventListener('click', function() {
   overlayPETH.classList.remove('active')
   popupPETH.classList.remove('active')
 })
+
+//EL PROGRESO
+
+var btnAbrirPopupPROH = document.getElementById('btn-pro'),
+  overlayPROH = document.getElementById('overlayPRO'),
+  popupPROH = document.getElementById('popupPRO'),
+  btnCerrarPopupPROH = document.getElementById('btn-cerrar-popupPRO');
+
+btnAbrirPopupPROH.addEventListener('click', function() {
+  overlayPROH.classList.add('active')
+  popupPROH.classList.add('active')
+})
+
+btnCerrarPopupPROH.addEventListener('click', function() {
+  overlayPROH.classList.remove('active')
+  popupPROH.classList.remove('active')
+})
+
+//EL PROGRESO MAPA
+
+var btnAbrirPopupPROH = document.getElementById('mapa-pro'),
+  overlayPROH = document.getElementById('overlayPRO'),
+  popupPROH = document.getElementById('popupPRO'),
+  btnCerrarPopupPROH = document.getElementById('btn-cerrar-popupPRO');
+
+btnAbrirPopupPROH.addEventListener('click', function() {
+  overlayPROH.classList.add('active')
+  popupPROH.classList.add('active')
+})
+
+btnCerrarPopupPROH.addEventListener('click', function() {
+  overlayPROH.classList.remove('active')
+  popupPROH.classList.remove('active')
+})
+
+//EL PROGRESO MAPA
+
+var btnAbrirPopupPROH = document.getElementById('mapa-pro2'),
+  overlayPROH = document.getElementById('overlayPRO'),
+  popupPROH = document.getElementById('popupPRO'),
+  btnCerrarPopupPROH = document.getElementById('btn-cerrar-popupPRO');
+
+btnAbrirPopupPROH.addEventListener('click', function() {
+  overlayPROH.classList.add('active')
+  popupPROH.classList.add('active')
+})
+
+btnCerrarPopupPROH.addEventListener('click', function() {
+  overlayPROH.classList.remove('active')
+  popupPROH.classList.remove('active')
+})
