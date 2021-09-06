@@ -510,51 +510,51 @@ btnCerrarPopupJUT.addEventListener('click', function() {
 
 //PETÉN
 
-var btnAbrirPopupPET = document.getElementById('btn-pet'),
-  overlayPET = document.getElementById('overlayPET'),
-  popupPET = document.getElementById('popupPET'),
-  btnCerrarPopupPET = document.getElementById('btn-cerrar-popupPET');
+var btnAbrirPopupPETH = document.getElementById('btn-pet'),
+  overlayPETH = document.getElementById('overlayPET'),
+  popupPETH = document.getElementById('popupPET'),
+  btnCerrarPopupPETH = document.getElementById('btn-cerrar-popupPET');
 
-btnAbrirPopupPET.addEventListener('click', function() {
-  overlayPET.classList.add('active')
-  popupPET.classList.add('active')
+btnAbrirPopupPETH.addEventListener('click', function() {
+  overlayPETH.classList.add('active')
+  popupPETH.classList.add('active')
 })
 
-btnCerrarPopupPET.addEventListener('click', function() {
-  overlayPET.classList.remove('active')
-  popupPET.classList.remove('active')
+btnCerrarPopupPETH.addEventListener('click', function() {
+  overlayPETH.classList.remove('active')
+  popupPETH.classList.remove('active')
 })
 
 //PETÉN MAPA
 
-var btnAbrirPopupPET = document.getElementById('mapa-pet'),
-  overlayPET = document.getElementById('overlayPET'),
-  popupPET = document.getElementById('popupPET'),
-  btnCerrarPopupPET = document.getElementById('btn-cerrar-popupPET');
+var btnAbrirPopupPETH = document.getElementById('mapa-pet'),
+  overlayPETH = document.getElementById('overlayPET'),
+  popupPETH = document.getElementById('popupPET'),
+  btnCerrarPopupPETH = document.getElementById('btn-cerrar-popupPET');
 
-btnAbrirPopupPET.addEventListener('click', function() {
-  overlayPET.classList.add('active')
-  popupPET.classList.add('active')
+btnAbrirPopupPETH.addEventListener('click', function() {
+  overlayPETH.classList.add('active')
+  popupPETH.classList.add('active')
 })
 
-btnCerrarPopupPET.addEventListener('click', function() {
-  overlayPET.classList.remove('active')
-  popupPET.classList.remove('active')
+btnCerrarPopupPETH.addEventListener('click', function() {
+  overlayPETH.classList.remove('active')
+  popupPETH.classList.remove('active')
 })
 
 //PETÉN MAPA FOOTER
 
-var btnAbrirPopupPET = document.getElementById('mapa-pet2'),
-  overlayPET = document.getElementById('overlayPET'),
-  popupPET = document.getElementById('popupPET'),
-  btnCerrarPopupPET = document.getElementById('btn-cerrar-popupPET');
+var btnAbrirPopupPETH = document.getElementById('mapa-pet2'),
+  overlayPETH = document.getElementById('overlayPET'),
+  popupPETH = document.getElementById('popupPET'),
+  btnCerrarPopupPETH = document.getElementById('btn-cerrar-popupPET');
 
-btnAbrirPopupPET.addEventListener('click', function() {
-  overlayPET.classList.add('active')
-  popupPET.classList.add('active')
+btnAbrirPopupPETH.addEventListener('click', function() {
+  overlayPETH.classList.add('active')
+  popupPETH.classList.add('active')
 })
 
-btnCerrarPopupPET.addEventListener('click', function() {
-  overlayPET.classList.remove('active')
-  popupPET.classList.remove('active')
+btnCerrarPopupPETH.addEventListener('click', function() {
+  overlayPETH.classList.remove('active')
+  popupPETH.classList.remove('active')
 })
