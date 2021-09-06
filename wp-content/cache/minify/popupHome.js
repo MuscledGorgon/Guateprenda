@@ -609,3 +609,21 @@ btnCerrarPopupPROH.addEventListener('click', function() {
   overlayPROH.classList.remove('active')
   popupPROH.classList.remove('active')
 })
+
+//QUETZALTENANGO
+
+
+var btnAbrirPopupQUEH = document.getElementById('btn-quetz'),
+  overlayQUEH = document.getElementById('overlayQUE'),
+  popupQUEH = document.getElementById('popupQUE'),
+  btnCerrarPopupQUEH = document.getElementById('btn-cerrar-popupQUE');
+
+btnAbrirPopupQUEH.addEventListener('click', function() {
+  overlayQUEH.classList.add('active')
+  popupQUEH.classList.add('active')
+})
+
+btnCerrarPopupQUEH.addEventListener('click', function() {
+  overlayQUEH.classList.remove('active')
+  popupQUEH.classList.remove('active')
+})
