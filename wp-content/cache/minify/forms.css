@@ -67,5 +67,6 @@
 .lineadiv{
   color: #fac42b;
   width: 60%;
-  height: 2px;
+  border-width: 2px;
+  text-align: left;
 }
