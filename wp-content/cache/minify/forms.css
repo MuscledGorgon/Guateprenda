@@ -15,7 +15,7 @@
 }
 
 .artgrl h1{
-  color: #ffffff;
+  color: #ffffff !important;
   font-size: 34px;
   font-weight: 500 !important;
   font-family: Open Sans;
