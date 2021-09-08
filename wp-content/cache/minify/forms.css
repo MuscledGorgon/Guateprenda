@@ -63,3 +63,9 @@
   float: left;
   width: auto;
 }
+
+.lineadiv{
+  color: #fac42b;
+  width: 60%;
+  height: 2px;
+}
