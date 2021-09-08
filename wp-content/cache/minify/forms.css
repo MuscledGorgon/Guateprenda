@@ -20,6 +20,10 @@
   font-weight: 500 !important;
   font-family: Open Sans;
 }
+.ddcg span{
+  color: #ffffff;
+}
+
 input{
   border-radius: 15px;
 }
