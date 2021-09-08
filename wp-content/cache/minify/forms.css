@@ -33,6 +33,8 @@
 }
 .ddcg{
   color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .info{
@@ -50,7 +52,9 @@
   text-align: justify;
 }
 .lablg{
-  color: #ffffff;
+  color: #fac42b;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .divdin, .divart, .divtel, .divmail{
