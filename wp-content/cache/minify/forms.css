@@ -23,6 +23,9 @@
   font-size: 34px;
   font-weight: 500 !important;
   font-family: Open Sans;
+  border-radius: 10px;
+  border: 2px solid;
+  border-color: #fac42b;
 }
 .ddcg span{
   color: #ffffff;
