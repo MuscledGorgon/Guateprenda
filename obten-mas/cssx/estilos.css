@@ -1,11 +1,11 @@
 @charset "utf-8";
 body{
+
 	
-	background-image: url(../imgx/Fondo.jpg);
 	background-size: cover;
 	background-repeat:no-repeat;
 
-	
+
 }
 .contenedor{
 	width:100%;
@@ -22,7 +22,7 @@ body{
 	text-align:center;
 
 
-	
+
 }
 .tabendiv{
 	width:40%;
@@ -59,7 +59,7 @@ body{
 	text-align:center;
 	margin:auto;
 	background-color: transparent;
-	
+
 }
 .campodoble{
 	width:48%;
@@ -83,7 +83,7 @@ body{
 	display:inline-block;
 	margin:0px;
 	padding:0px;
-	text-align:left;	
+	text-align:left;
 }
 .campocompleto{
 	width:98%;
@@ -92,7 +92,7 @@ body{
 	border: solid 1px #999999;
 	border-radius:5px;
 	margin:2px;
-	padding:0px;	
+	padding:0px;
 }
 
 .hrline{
@@ -105,7 +105,7 @@ body{
 	text-align:left;
 	margin-top:7px;
 	margin-left:3px;
-	background-color: transparent;	
+	background-color: transparent;
 }
 .botonenviar{
 	width:150px;
@@ -119,7 +119,7 @@ body{
 }
 
 .divdudasredes{
-	width:100%;	
+	width:100%;
 }
 #dudas{
 	width:30%;
@@ -129,7 +129,7 @@ body{
 	display:inline-block;
 	float:left;
 	margin-left:3px;
-	
+
 }
 #redes{
 	width:60%;
@@ -139,12 +139,12 @@ body{
 	display:inline-block;
 	float:left;
 	margin-left:0px;
-		
+
 }
 .spacer{
 	width:100%;
 	height:20px;
-	
+
 }
 .tienetitulo2{
 	width:100%;
@@ -155,18 +155,18 @@ body{
 	padding-right:0px;
 	padding-bottom:10px;
 
-	
+
 }
 .circulored{
 	width:40px;
 	height:40px;
 	margin-left:25px;
-	
-	
+
+
 }
 .textoCAT{
 	color:#FF0;
-	font-size:12px;	
+	font-size:12px;
 }
 
 .textoSUBTITLE{
@@ -174,12 +174,12 @@ body{
 	font-size:14px;
 	text-align:left;
 	padding-top:10px;
-	padding-bottom:10px;	
+	padding-bottom:10px;
 }
 .textoTITLECAMPO{
 	color: #FFF;
 	font-size:14px;
-	text-align:left;	
+	text-align:left;
 }
 
 .demo {
@@ -191,7 +191,7 @@ background: linear-gradient(to right, #FFFF00 0%, #002782 87%, #002782 100%);
 }
 
 #que1{
-	
+
 	padding-top:11px;
 	padding-bottom:10px;
 	display:none;
@@ -219,17 +219,17 @@ background: linear-gradient(to right, #FFFF00 0%, #002782 87%, #002782 100%);
 .botselect:hover{
 	background-color: #FF0;
 	color:#001688;
-	
+
 }
 .textselectienda{
-	
+
 	width:100%;
 	padding-top:5px;
 	padding-bottom:5px;
 	color:#FF0;
 	text-align:center;
-	
-	
+
+
 }
 
 
@@ -251,11 +251,11 @@ background: linear-gradient(to right, #FFFF00 0%, #002782 87%, #002782 100%);
 }
 
 #que1{
-	
+
 	display:inline;
 }
 #que2{
-	
+
 	display:none;;
 
 }
