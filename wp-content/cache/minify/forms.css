@@ -66,6 +66,6 @@
 
 .lineadiv{
   color: #fac42b;
-  width: 60%;
-  align: left;
+  max-width: 250px;
+  margin-left: 0;
 }
