@@ -45,3 +45,8 @@
 .lablg{
   color: #ffffff;
 }
+
+.divdin, .divart{
+  float: left;
+  width: 50%;
+}
