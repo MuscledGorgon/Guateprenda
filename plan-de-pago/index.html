@@ -1,15 +1,4 @@
-<!--
-<?php include 'db.php'; ?>
-
-<?php
-
-	include("_formas.php");
-	include("_encabezado.php");
-?>
--->
-
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es-ES">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
@@ -1666,9 +1655,6 @@
 										<li id="menu-item-2646" class="menu-item menu-item-type-post_type menu-item-object-page has-mega-menu"><a class="menu-item-link js-smooth-scroll" href="../cliente-nuevo/index.html">¿Cliente nuevo?</a></li>
 										<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-16 current_page_item no-mega-menu"><a class="menu-item-link js-smooth-scroll" href="index.html">Empeño</a>
 										</li>
-										<!--
-                    <li id="menu-item-123" class="menu-item menu-item-type-custom menu-item-object-custom no-mega-menu"><a class="menu-item-link js-smooth-scroll" href="#garantias">También vendemos</a></li>
-                    -->
 
 										<li id="menu-item-165" class="menu-item menu-item-type-post_type menu-item-object-page no-mega-menu"><a class="menu-item-link js-smooth-scroll" href="../contacto/index.html">Contacto</a></li>
 									</ul>
@@ -1733,269 +1719,76 @@
 
 
 
-				<div class="tabendiv">
-					<!-- empieza div del TAB -->
-
-					<div class="tab">
-
-						<div id="que1" class="TITULOimgdiv1">¿QUE QUIERES EMPEÑAR?</div>
-						<button class="tablinks" onclick="openCity(event, 'otro');muestraimagenotroart()" id="defaultOpen"><span>Quiero empe&ntilde;ar OTRO ART&Iacute;CULO</span></button>
-						<button class="tablinks" onclick="openCity(event, 'joyeria');muestraimagenjoyeria()"><span>Quiero empe&ntilde;ar JOYER&Iacute;A</span></button>
-
-					</div>
-
-
-					<div id="otro" class="tabcontent" style="margin: 0 auto;">
-						<!-- inicia TAB OTRO -->
-
-
-						<form action="enviaemail2.php" method="post" name="formizq" id="formizq">
-
-							<div class="spacer"></div>
-							<div class="tienetitulo2">*El periodo de pago del pr&eacute;stamo es m&iacute;nimo de 30 d&iacute;as sin un l&iacute;mite m&aacute;ximo obligatorio de d&iacute;as para liquidarlo, en caso de no liquidar el monto del total del
-								pr&eacute;stamo, las comisiones y el inter&eacute;s generado en la fecha se&ntilde;alada del contrato, podr&aacute;s pagar &uacute;nicamente las comisiones con el inter&eacute;s generado, obteniendo un plazo de d&iacute;as igual
-								al
-								periodo pactado para recuperar tu prenda. Tasa Mensual promedio en mercanc&iacute;a general del 21% sin IVA Ej. Para un pr&eacute;stamo de $1,000 el cliente liquida con $1,210. Ejemplos representativos para fines informativos
-								exclusivamente. Para mayor informaci&oacute;n consulta en tienda m&aacute;s cercana.</span></div>
-
-							<div class="textoSUBTITLE">Tu Pr&eacute;stamo</div>
-							<hr class="hrline">
-
-							<div class="tienecampo">
-								<label class="etiqudoble" for="dinero1"><span class="textoTITLECAMPO">&iquest;Cuanto dinero necesitas?</span></label>
-								<label class="etiqudoble" for="articulo1"><span class="textoTITLECAMPO">&iquest;Que art&iacute;culo quieres empe&ntilde;ar?</span></label>
-								<input name="dinero1" id="dinero1" class="campodoble" name="" type="text" />
-								<input name="articulo1" id="articulo1" class="campodoble" name="" type="text" />
-							</div>
-
-
-							<div class="tienecampo">
-								<label class="etiqucompleto" for="caracteristica1"><span class="textoTITLECAMPO">&iquest;Cu&aacute;les son las caracter&iacute;sticas de tu art&iacute;culo?</span></label>
-								<input name="caracteristica1" id="caracteristica1" class="campocompleto" name="" type="text" />
-							</div>
-
-
-							<div class="textoSUBTITLE">Datos de Contacto</div>
-							<hr class="hrline">
-
-
-							<div class="tienecampo">
-								<label class="etiqucompleto" for="nombre1"><span class="textoTITLECAMPO">Nombre Completo</span></label>
-								<input name="nombre1" id="nombre1" class="campocompleto" name="" type="text" />
-							</div>
-
-
-							<div class="tienecampo">
-								<label class="etiqudoble" for="telefono1"><span class="textoTITLECAMPO">Tel&eacute;fono</span></label>
-								<label class="etiqudoble" for="correo1"><span class="textoTITLECAMPO">Correo</span></label>
-								<input name="telefono1" id="telefono1" class="campodoble" name="" type="text" />
-								<input name="correo1" id="correo1" class="campodoble" name="" type="email" />
-							</div>
-
-
-<!--
-							<div class="textoSUBTITLE">Ubica tu tienda m&eacute;s cercana</div>
-							<input id='idsuc1lleva1' name='idsuc1lleva1' type='hidden' value='' />
-							<hr class="hrline">
-				-->
-								<!--
-								<div class="tienecampo">
-								<label class="etiqudoble" for="selectpaisesid1"><span class="textoTITLECAMPO">Estado</span></label>
-								<label class="etiqudoble" for="selectestado1"><span class="textoTITLECAMPO">Municipio</span></label>
-
-							<select class="campodoble" id="selectpaisesid1" onchange="selectpaisesDOS()">
-									<option value="">Seleccione un Estado</option>
-									<?php
-                          $paisesdb = ModeloPaises::mdlShowPaisesDOS();
-                          foreach ($paisesdb as $key => $value) {
-                            echo '<option value="'. $value["idclaveedo"] .'"> '. $value["estado"] .'</option>';
-                          }
-                      ?>
-
-								</select>
-
-								<select class="campodoble" id="selectestado1" disabled onchange="selectsucursalesDOS()">
-									<option value="">Seleccione Municipio</option>
-								</select>
-
-
-									<div class='textselectienda'>Seleccione su tienda cercana</div>
-								<div style="font-size:19px; color:#F00;" id="contienerespuestaenvio1"></div>
-								<div id="selectsucursalesid1"></div>
-							-->
-							<input name='butoizq' id="butoizq" type='submit' value='Enviar' style="width:100px; height:40px; margin-top:20px" disabled='true' />
-						</form>
-
-
-						<!--
-						<div class="spacer"></div>
-
-						<div class="divdudasredes">
-							<div id="dudas">&iquest;Dudas? Cont&aacute;ctanos</div>
-							<div id="redes"></div>
-							<a href="https://api.whatsapp.com/send?phone=525580258941&text=Hola!%20Quiero%20empe&ntilde;ar%20un%20art&iacute;culo" target="_blank"><img class="circulored" src="imgx/whatsapp.png" /></a>
-							<a href="tel:18003647837" target="_blank"><img class="circulored" src="imgx/telefono.png" /></a>
-						</div>
-						-->
-
-
-
-					</div>
-
-					<!-- termina TAB OTRO -->
-
-
-
-
-
-
-					<div id="joyeria" class="tabcontent">
-						<!-- INICIA TAB JOYERIA -->
-
-
-						<form action="enviaemail.php" method="post" name="formder" id="formder">
-
-							<div class="spacer"></div>
-							<div class="tienetitulo2">*El periodo de pago del pr&eacute;stamo es m&iacute;nimo de 30 d&iacute;as sin un l&iacute;mite m&aacute;ximo obligatorio de d&iacute;as para liquidarlo, en caso de no liquidar el monto del total del
-								pr&eacute;stamo, las comisiones y el inter&eacute;s generado en la fecha se&ntilde;alada del contrato, podr&aacute;s pagar &uacute;nicamente las comisiones con el inter&eacute;s generado, obteniendo un plazo de d&iacute;as igual
-								al
-								periodo pactado para recuperar tu prenda. Tasa Mensual promedio en joyer&iacute;a del 15% sin IVA Ej. Para un pr&eacute;stamo de $1,000 el cliente liquida con $1,150. Ejemplos representativos para fines informativos
-								exclusivamente. Para
-								mayor informaci&oacute;n consulta en tienda m&aacute;s cercana.</span></div>
-
-
-
-							<div class="textoSUBTITLE">Tu Pr&eacute;stamo</div>
-							<hr class="hrline">
-
-							<div class="tienecampo">
-								<label class="etiqudoble" for="dinero"><span class="textoTITLECAMPO">&iquest;Cuanto dinero necesitas?</span></label>
-								<label class="etiqudoble" for="caracteristica"><span class="textoTITLECAMPO">&iquest;Cu&aacute;les son las caracter&iacute;sticas de tu art&iacute;culo?</span></label>
-								<input name="dinero" id="dinero" class="campodoble" name="" type="text" />
-								<input name="caracteristica" id="caracteristica" class="campodoble" name="" type="text" />
-							</div>
-
-
-							<div class="textoSUBTITLE">Datos de Contacto</div>
-							<hr class="hrline">
-
-							<div class="tienecampo">
-								<label class="etiqucompleto" for="nombre"><span class="textoTITLECAMPO">Nombre Completo</span></label>
-								<input name="nombre" id="nombre" class="campocompleto" name="" type="text" />
-							</div>
-
-
-							<div class="tienecampo">
-								<label class="etiqudoble" for="telefono"><span class="textoTITLECAMPO">Tel&eacute;fono</span></label>
-								<label class="etiqudoble" for="correo"><span class="textoTITLECAMPO">Correo</span></label>
-								<input name="telefono" id="telefono" class="campodoble" name="" type="text" />
-								<input name="correo" id="correo" class="campodoble" name="" type="email" />
-							</div>
-
-							<!--
-							<div class="textoSUBTITLE">Ubica tu tienda m&eacute;s cercana</div>
-							<input id='idsuc1lleva' name='idsuc1lleva' type='hidden' value='' />
-							<hr class="hrline">
-							-->
-
-
-							<!--
-							<div class="tienecampo">
-								<label class="etiqudoble" for="selectpaisesid"><span class="textoTITLECAMPO">Estado</span></label>
-								<label class="etiqudoble" for="selectestado"><span class="textoTITLECAMPO">Municipio</span></label>
-
-								<select class="campodoble" id="selectpaisesid" onchange="selectpaises()">
-									<option value="">Seleccione un Estado</option>
-									<?php
-                          $paisesdb = ModeloPaises::mdlShowPaises();
-                          foreach ($paisesdb as $key => $value) {
-                            echo '<option value="'. $value["idclaveedo"] .'"> '. $value["estado"] .'</option>';
-                          }
-                      ?>
-
-								</select>
-
-								<select class="campodoble" id="selectestado" disabled onchange="selectsucursales()">
-									<option value="">Seleccione Municipio</option>
-								</select>
-
-
-								<div class='textselectienda'>Seleccione su tienda cercana</div>
-								<div style="font-size:20px; color: #F00;" id="contienerespuestaenvio"></div>
-								<div id="selectsucursalesid"></div>
-
-
-
-							</div>
-							-->
-
-							<input name='butoder' id="butoder" type='submit' value='Envia' style="width:100px; height:40px;" disabled='true' />
-						</form>
-
-						<!--
-						<div class="spacer"></div>
-						-->
-
-
-						<!--
-						<div class="divdudasredes">
-							<div id="dudas">&iquest;Dudas? Cont&aacute;ctanos</div>
-							<div id="redes"></div>
-							<a href="https://api.whatsapp.com/send?phone=525580258941&text=Hola!%20Quiero%20empe&ntilde;ar%20un%20art&iacute;culo" target="_blank"><img class="circulored" src="imgx/whatsapp.png" /></a>
-							<a href="tel:18003647837" target="_blank"><img class="circulored" src="imgx/telefono.png" /></a>
-						</div>
-						-->
-
-
-
-
-
-					</div>
-					<!-- termina TAB JOYERIA -->
-
-
-
-
+				<div class="formularios">
+
+					Articulos en general
+					<br>
+					*El periodo de pago del préstamo es mínimo de 30 días sin un límite máximo obligatorio de días para liquidarlo, en caso de no liquidar el monto del total del préstamo, las comisiones y el interés generado en la fecha señalada del contrato, podrás pagar únicamente las comisiones con el interés generado, obteniendo un plazo de días igual al periodo pactado para recuperar tu prenda. Tasa Mensual promedio en mercancía general del 21% sin IVA Ej. Para un préstamo de $1,000 el cliente liquida con $1,210. Ejemplos representativos para fines informativos exclusivamente. Para mayor información consulta en tienda más cercana.
+					<form class="formgp" action="enviar.php" method="post" name="generales" id="generales">
+						<label for="dinero">¿Cuanto dinero necesitas?</label>
+						<br>
+						<input type="number" name="dinero" value="" min="1" step="any" required>
+						<label for="articulos">¿Que articulo deseas empeñar?</label>
+						<br>
+						<input list="articulos" type="text" name="articulos" value="" required>
+						<datalist class="articulos" id="articulos">
+							<option value="Celular"></option>
+							<option value="Laptop"></option>
+							<option value="Tablet"></option>
+							<option value="Pantalla"></option>
+							<option value="Consola"></option>
+							<option value="Otro"></option>
+
+
+						</datalist>
+						<label for="caracteristicas">¿Cuáles son las características de tu artículo?</label>
+						<input type="text" name="caracteristicas" value="" maxlength="250" required>
+						<br>
+						Datos del contacto
+						<label for="nombre">Nombre completo</label>
+						<input type="text" name="nombre" value="" id="nombre" size="30" maxlength="100" required>
+						<br>
+						<label for="telefono">Teléfono</label>
+						<input type="number" name="telefono" value="" maxlength="10" required>
+						<br>
+						<label for="email">Correo</label>
+						<input type="text" name="email" value="" maxlength="100" required>
+						<br>
+						<input type="submit" name="" value="Enviar">
+					</form>
+
+					Joyeria
+					<br>
+					*El periodo de pago del préstamo es mínimo de 30 días sin un límite máximo obligatorio de días para liquidarlo, en caso de no liquidar el monto del total del préstamo, las comisiones y el interés generado en la fecha señalada del contrato, podrás pagar únicamente las comisiones con el interés generado, obteniendo un plazo de días igual al periodo pactado para recuperar tu prenda. Tasa Mensual promedio en joyería del 15% sin IVA Ej. Para un préstamo de $1,000 el cliente liquida con $1,150. Ejemplos representativos para fines informativos exclusivamente. Para mayor información consulta en tienda más cercana.
+					<form class="formjoya" action="enviar.php" method="post" name="generales" id="generales">
+						<label for="dineroj">¿Cuanto dinero necesitas?</label>
+						<br>
+						<input type="number" name="dineroj" value="" min="1" step="any" required>
+						<label for="caracteristicasj">¿Cuáles son las características de tu artículo?</label>
+						<input type="text" name="caracteristicasj" value="" maxlength="250" required>
+						<br>
+						Datos del contacto
+						<label for="nombrej">Nombre completo</label>
+						<input type="text" name="nombrej" value="" id="nombrej" size="30" maxlength="100" required>
+						<br>
+						<label for="telefonoj">Teléfono</label>
+						<input type="number" name="telefonoj" value="" maxlength="10" required>
+						<br>
+						<label for="emailj">Correo</label>
+						<input type="text" name="emailj" value="" maxlength="100" required>
+						<br>
+						<input type="submit" name="" value="Enviar">
+					</form>
 				</div>
 
-				<!-- termina div del TAB -->
 
 
 
 
-				<!--
-				<div class="imgdiv1">
-				-->
-
-
-				<!--
-					<div id="que2" class="TITULOimgdiv1">&iquest;QUE QUIERES EMPE&Ntilde;AR?</div>
-					-->
-
-
-				<!-- inicia div IMAGEN 1 -->
-
-				<!--
-					<div class="demo"></div>
-					-->
-
-
-				<!-- DIV margen amarillo bajo -->
-
-
-				<!--
-					<img id="imagenjoyeria" src="imgx/imagenconjunto.png" width="100%" height="auto" />
-					<img id="imagenotroart" src="imgx/imagenconjuntootro.png" width="100%" height="auto" />
-					-->
-
-				<!--
-				</div>
-				-->
 
 
 
 
-				<!-- termina div IMAGEN 1 -->
 
 				<script>
 					function openCity(evt, cityName) {
