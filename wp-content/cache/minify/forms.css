@@ -27,6 +27,8 @@
   border: 2px solid;
   border-color: #fac42b;
   background-color: #fac42b;
+  padding-left: 5px;
+  text-shadow: #000
 }
 .ddcg{
   color: #ffffff;
