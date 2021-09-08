@@ -4456,7 +4456,7 @@ body:not(.mk-boxed-enabled).dashboard-opened .sticky-style-fixed.header-style-1 
 }
 
 .master-holder-bg {
-  background-image: url(../imgx/Fondo.jpg);
+  background-color: #082d77;
   position: absolute;
   top: 0;
   left: 0;
