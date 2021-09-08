@@ -37,6 +37,8 @@
 
 .info{
   border-radius: 0.2rem;
+  padding: 20px 10px;
+  line-height: 20px;
 }
 
 .enviar{
