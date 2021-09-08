@@ -20,10 +20,11 @@
 
 .artgrl{
   color: #ffffff !important;
+  text-align: center;
   font-size: 34px;
   font-weight: 500 !important;
   font-family: Open Sans;
-  border-radius: 10px;
+  border-radius: 15px;
   border: 2px solid;
   border-color: #fac42b;
   background-color: #fac42b;
