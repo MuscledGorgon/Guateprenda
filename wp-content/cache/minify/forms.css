@@ -53,7 +53,7 @@
   color: #ffffff;
 }
 
-.divdin, .divart{
+.divdin, .divart, .divtel, .divmail{
   float: left;
   width: 50%;
 }
