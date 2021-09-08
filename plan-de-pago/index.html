@@ -1715,161 +1715,130 @@
 				</div>
 
 				<!--  Carrusel principal -->
+			</div>
 
+			<div class="formularios">
+				<div class="articulosgeneral">
+					<h2 class="artgrl">Artículos en general</h2>
+					<br>
+					<p class="pgrl">*El periodo de pago del préstamo es mínimo de 30 días sin un límite máximo obligatorio de días para liquidarlo, en caso de no liquidar el monto del total del préstamo, las comisiones y el interés generado en la fecha señalada del contrato, podrás pagar únicamente las comisiones con el interés generado, obteniendo un plazo de días igual al periodo pactado para recuperar tu prenda. Tasa Mensual promedio en mercancía general del 21% sin IVA Ej. Para un préstamo de $1,000 el cliente liquida con $1,210. Ejemplos representativos para fines informativos exclusivamente. Para mayor información consulta en tienda más cercana.</p>
+					<form class="formgp" action="enviar-general.php" method="post" name="generales" id="generales">
 
+						<div class="divdin">
 
+							<label for="dinero" class="lablg">¿Cuanto dinero necesitas?</label>
+							<br>
+							<input type="number" class="info" name="dinero" value="" min="1" maxlength="6" size="40" step="any" required>
+							<br>
+							<br>
 
+						</div>
 
-				<div class="formularios">
-					<div class="articulosgeneral">
-						<h2 class="artgrl">Artículos en general</h2>
+						<div class="divart">
+
+							<label for="articulos" class="lablg">¿Que articulo deseas empeñar?</label>
+							<br>
+							<input list="articulos" class="info" type="text" name="articulos" size="40" value="" required>
+							<datalist class="articulos" id="articulos">
+								<option value="Celular"></option>
+								<option value="Laptop"></option>
+								<option value="Tablet"></option>
+								<option value="Pantalla"></option>
+								<option value="Consola"></option>
+								<option value="Otro"></option>
+							</datalist>
+							<br>
+							<br>
+
+						</div>
+
+						<div class="divcar">
+
+							<label for="caracteristicas" class="lablg">¿Cuáles son las características de tu artículo?</label>
+							<input type="text" class="info" name="caracteristicas" value="" size="80" maxlength="250" required>
+							<br>
+
+						</div>
+
 						<br>
-						<p class="pgrl">*El periodo de pago del préstamo es mínimo de 30 días sin un límite máximo obligatorio de días para liquidarlo, en caso de no liquidar el monto del total del préstamo, las comisiones y el interés generado en la fecha señalada del contrato, podrás pagar únicamente las comisiones con el interés generado, obteniendo un plazo de días igual al periodo pactado para recuperar tu prenda. Tasa Mensual promedio en mercancía general del 21% sin IVA Ej. Para un préstamo de $1,000 el cliente liquida con $1,210. Ejemplos representativos para fines informativos exclusivamente. Para mayor información consulta en tienda más cercana.</p>
-						<form class="formgp" action="enviar-general.php" method="post" name="generales" id="generales">
-
-							<div class="divdin">
-
-								<label for="dinero" class="lablg">¿Cuanto dinero necesitas?</label>
-								<br>
-								<input type="number" class="info" name="dinero" value="" min="1" maxlength="6" size="40" step="any" required>
-								<br>
-								<br>
-
-							</div>
-
-							<div class="divart">
-
-								<label for="articulos" class="lablg">¿Que articulo deseas empeñar?</label>
-								<br>
-								<input list="articulos" class="info" type="text" name="articulos" size="40" value="" required>
-								<datalist class="articulos" id="articulos">
-									<option value="Celular"></option>
-									<option value="Laptop"></option>
-									<option value="Tablet"></option>
-									<option value="Pantalla"></option>
-									<option value="Consola"></option>
-									<option value="Otro"></option>
-								</datalist>
-								<br>
-								<br>
-
-							</div>
-
-							<div class="divcar">
-
-								<label for="caracteristicas" class="lablg">¿Cuáles son las características de tu artículo?</label>
-								<input type="text" class="info" name="caracteristicas" value="" size="80" maxlength="250" required>
-								<br>
-
-							</div>
-
-							<br>
-							<span class="ddcg">Datos del contacto</span>
-							<hr class="lineadiv">
-							<br>
-							<label for="nombre" class="lablg">Nombre completo</label>
-							<br>
-							<input type="text" class="info" name="nombre" value="" id="nombre" size="50" maxlength="100" required>
-							<br>
-							<br>
-
-							<div class="divtel">
-
-								<label for="telefono" class="lablg">Teléfono</label>
-								<br>
-								<input type="tel" class="info" name="telefono" value="" maxlength="10" size="40" required>
-								<br>
-								<br>
-
-							</div>
-
-							<div class="divmail">
-
-								<label for="email" class="lablg">Correo</label>
-								<br>
-								<input type="text" class="info" name="email" value="" maxlength="100" size="40" required>
-								<br>
-								<br>
-
-							</div>
-
-
-
-							<input type="submit" class="btn-enviar" name="" value="Enviar">
-
-						</form>
-					</div>
-
-					<div class="articulosjoyeria">
-						<h2 class="artjoy">Joyeria</h2>
+						<span class="ddcg">Datos del contacto</span>
+						<hr class="lineadiv">
 						<br>
-						<p class="pjoy">*El periodo de pago del préstamo es mínimo de 30 días sin un límite máximo obligatorio de días para liquidarlo, en caso de no liquidar el monto del total del préstamo, las comisiones y el interés generado en la fecha señalada del contrato, podrás pagar únicamente las comisiones con el interés generado, obteniendo un plazo de días igual al periodo pactado para recuperar tu prenda. Tasa Mensual promedio en joyería del 15% sin IVA Ej. Para un préstamo de $1,000 el cliente liquida con $1,150. Ejemplos representativos para fines informativos exclusivamente. Para mayor información consulta en tienda más cercana.</p>
-						<form class="formjoya" action="enviar-joyeria.php" method="post" name="generales" id="generales">
+						<label for="nombre" class="lablg">Nombre completo</label>
+						<br>
+						<input type="text" class="info" name="nombre" value="" id="nombre" size="50" maxlength="100" required>
+						<br>
+						<br>
 
-							<label for="dineroj">¿Cuanto dinero necesitas?</label>
-							<br>
-							<input type="number" class="info" name="dineroj" value="" min="1" step="any" required>
-							<br>
-							<br>
+						<div class="divtel">
 
-							<label for="caracteristicasj">¿Cuáles son las características de tu artículo?</label>
-							<input type="text" class="info" name="caracteristicasj" value="" maxlength="250" required>
+							<label for="telefono" class="lablg">Teléfono</label>
 							<br>
-							<br>
-
-							<span class="ddc">Datos del contacto</span>
-							<br>
-							<br>
-							<label for="nombrej">Nombre completo</label>
-							<input type="text" class="info" name="nombrej" value="" id="nombrej" size="30" maxlength="100" required>
+							<input type="tel" class="info" name="telefono" value="" maxlength="10" size="40" required>
 							<br>
 							<br>
 
-							<label for="telefonoj">Teléfono</label>
-							<input type="tel" class="info" name="telefonoj" value="" maxlength="10" required>
+						</div>
+
+						<div class="divmail">
+
+							<label for="email" class="lablg">Correo</label>
+							<br>
+							<input type="text" class="info" name="email" value="" maxlength="100" size="40" required>
 							<br>
 							<br>
 
-							<label for="emailj">Correo</label>
-							<input type="text" class="info" name="emailj" value="" maxlength="100" required>
-							<br>
-							<br>
+						</div>
 
-							<input type="submit" class="btn-enviar" name="" value="Enviar">
 
-						</form>
-					</div>
 
+						<input type="submit" class="btn-enviar" name="" value="Enviar">
+
+					</form>
 				</div>
 
+				<div class="articulosjoyeria">
+					<h2 class="artjoy">Joyeria</h2>
+					<br>
+					<p class="pjoy">*El periodo de pago del préstamo es mínimo de 30 días sin un límite máximo obligatorio de días para liquidarlo, en caso de no liquidar el monto del total del préstamo, las comisiones y el interés generado en la fecha señalada del contrato, podrás pagar únicamente las comisiones con el interés generado, obteniendo un plazo de días igual al periodo pactado para recuperar tu prenda. Tasa Mensual promedio en joyería del 15% sin IVA Ej. Para un préstamo de $1,000 el cliente liquida con $1,150. Ejemplos representativos para fines informativos exclusivamente. Para mayor información consulta en tienda más cercana.</p>
+					<form class="formjoya" action="enviar-joyeria.php" method="post" name="generales" id="generales">
 
+						<label for="dineroj">¿Cuanto dinero necesitas?</label>
+						<br>
+						<input type="number" class="info" name="dineroj" value="" min="1" step="any" required>
+						<br>
+						<br>
 
+						<label for="caracteristicasj">¿Cuáles son las características de tu artículo?</label>
+						<input type="text" class="info" name="caracteristicasj" value="" maxlength="250" required>
+						<br>
+						<br>
 
+						<span class="ddc">Datos del contacto</span>
+						<br>
+						<br>
+						<label for="nombrej">Nombre completo</label>
+						<input type="text" class="info" name="nombrej" value="" id="nombrej" size="30" maxlength="100" required>
+						<br>
+						<br>
 
+						<label for="telefonoj">Teléfono</label>
+						<input type="tel" class="info" name="telefonoj" value="" maxlength="10" required>
+						<br>
+						<br>
 
+						<label for="emailj">Correo</label>
+						<input type="text" class="info" name="emailj" value="" maxlength="100" required>
+						<br>
+						<br>
 
+						<input type="submit" class="btn-enviar" name="" value="Enviar">
 
+					</form>
+				</div>
 
-
-				<script>
-					function openCity(evt, cityName) {
-						var i, tabcontent, tablinks;
-						tabcontent = document.getElementsByClassName("tabcontent");
-						for (i = 0; i < tabcontent.length; i++) {
-							tabcontent[i].style.display = "none";
-						}
-						tablinks = document.getElementsByClassName("tablinks");
-						for (i = 0; i < tablinks.length; i++) {
-							tablinks[i].className = tablinks[i].className.replace(" active", "");
-						}
-						document.getElementById(cityName).style.display = "block";
-						evt.currentTarget.className += " active";
-					}
-
-					// Get the element with id="defaultOpen" and click on it
-					document.getElementById("defaultOpen").click();
-				</script>
 			</div>
+
 
 			<div class="mk-main-wrapper-holder">
 				<div class="theme-page-wrapper no-padding full-layout mk-grid vc_row-fluid">
