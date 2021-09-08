@@ -20,3 +20,6 @@
   font-weight: 500 !important;
   font-family: Open Sans;
 }
+input{
+  border-radius: 15px;
+}
