@@ -9,6 +9,8 @@
   float: left;
   width: 90%;
   padding: 20px;
+  border-right: 0px solid;
+  border-color: inherit;
 }
 
 }
