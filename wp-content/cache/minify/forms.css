@@ -3,6 +3,16 @@
   padding: 30px;
 }
 
+@media screen and (max-width:375px){
+
+.articulosgeneral{
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+}
+
 .articulosgeneral{
   float: left;
   width: 50%;
