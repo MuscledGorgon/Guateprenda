@@ -18,6 +18,68 @@
   padding: 5%;
 }
 
+.artgrl, .artjoy{
+  color: #ffffff !important;
+  text-align: center;
+  font-size: 34px;
+  font-weight: 600 !important;
+  font-family: Open Sans;
+  border-radius: 30px;
+  border: 2px solid;
+  border-color: #fac42b;
+  background-color: #fac42b;
+  padding-left: 5px;
+  text-shadow: 1px 1px 2px #000
+}
+
+.ddc{
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.info{
+  border-radius: 0.2rem;
+  height: 30px;
+  line-height: 20px;
+  width: 80%
+}
+
+.enviar{
+  border-radius: 4px;
+}
+
+.pgrl, .pjoy{
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: justify;
+}
+.lablg, .lablj{
+  color: #fac42b;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.divdin, .divart, .divtel, .divmail{
+  float: left;
+  width: 50%;
+}
+.divcar{
+  float: left;
+  width: auto;
+}
+
+.lineadiv{
+  color: #fac42b;
+  max-width: 60%;
+  margin-left: 0;
+  height: 12px;
+  background-color: #fac42b;
+  border: none;
+}
+
 @media screen and (max-width: 480px) {
 
   .articulosgeneral{
@@ -84,65 +146,4 @@
     text-shadow: 1px 1px 2px #000
   }
 
-}
-
-.artgrl, .artjoy{
-  color: #ffffff !important;
-  text-align: center;
-  font-size: 34px;
-  font-weight: 600 !important;
-  font-family: Open Sans;
-  border-radius: 30px;
-  border: 2px solid;
-  border-color: #fac42b;
-  background-color: #fac42b;
-  padding-left: 5px;
-  text-shadow: 1px 1px 2px #000
-}
-.ddc{
-  color: #ffffff;
-  font-size: 24px;
-  font-weight: 600;
-  text-align: center;
-}
-
-.info{
-  border-radius: 0.2rem;
-  height: 30px;
-  line-height: 20px;
-  width: 80%
-}
-
-.enviar{
-  border-radius: 4px;
-}
-
-.pgrl, .pjoy{
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: 300;
-  text-align: justify;
-}
-.lablg, .lablj{
-  color: #fac42b;
-  font-size: 16px;
-  font-weight: 400;
-}
-
-.divdin, .divart, .divtel, .divmail{
-  float: left;
-  width: 50%;
-}
-.divcar{
-  float: left;
-  width: auto;
-}
-
-.lineadiv{
-  color: #fac42b;
-  max-width: 60%;
-  margin-left: 0;
-  height: 12px;
-  background-color: #fac42b;
-  border: none;
 }
