@@ -61,6 +61,7 @@
 
   .articulosgeneral{
     width: calc(100% - 5%);
+    border-right: none;
     border-bottom: 2px solid;
     border-color: #ffffff;
   }
