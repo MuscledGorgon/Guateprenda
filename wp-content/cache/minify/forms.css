@@ -12,6 +12,11 @@
   margin: 1%
 }
 
+.articulosjoyeria{
+  float: left;
+  width: 50%;
+}
+
 @media screen and (max-width: 480px) {
 
   .articulosgeneral, .articulosjoyeria{
