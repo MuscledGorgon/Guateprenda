@@ -2233,13 +2233,19 @@
 								<option value="Refacturado"></option>
 								<option value="Legalizado"></option>
 							</datalist>
+							<br>
+							<br>
 
 						</div>
 
 						<div class="divemp">
 
-							<label for="anio" class="lablg">Año</label>
-							<input type="number" class="info" name="anio" value="2021" size="80" min="1990" max="2022" maxlength="4" required>
+							<label for="modalidad" class="lablg">Modalidad de empeño</label>
+							<input list="modalidad" class="info" type="text" name="modalidad" size="40" value="Elige una opción" required>
+							<datalist class="modalidad" id="modalidad">
+								<option value="Físico"></option>
+								<option value="Solo documentos"></option>
+							</datalist>
 							<br>
 							<br>
 
