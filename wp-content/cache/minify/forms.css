@@ -15,7 +15,7 @@
 @media screen and (max-width: 480px) {
 
   .articulosgeneral, .articulosjoyeria{
-    width: calc(100% - 10%);
+    width: calc(100% - 5%);
     border-right: 0px;
   }
 
@@ -47,7 +47,7 @@
 @media screen and (max-width: 780px) {
 
   .articulosgeneral{
-    width: calc(100% - 10%);
+    width: calc(100% - 5%);
   }
 
   .artgrl{
@@ -109,7 +109,7 @@
   font-weight: 300;
   text-align: justify;
 }
-.lablg{
+.lablg, .lablj{
   color: #fac42b;
   font-size: 16px;
   font-weight: 400;
