@@ -3,8 +3,6 @@
   padding: 30px;
 }
 
-
-
 .articulosgeneral{
   float: left;
   width: 50%;
@@ -12,6 +10,7 @@
   border-right: 2px solid;
   border-color: #ffffff;
 }
+
 .articulosjoyeria{
   float: left;
   width: 50%;
