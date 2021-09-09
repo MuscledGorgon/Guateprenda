@@ -16,6 +16,7 @@
 
   .articulosgeneral{
     width: calc(100% - 10%);
+    border-right: 0px;
   }
 
   .artgrl{
