@@ -1,5 +1,6 @@
 .formularios{
   background-color: #082d77;
+  padding: 30px;
 }
 
 .articulosgeneral{
@@ -9,12 +10,6 @@
   border-right: 2px solid;
   border-color: #ffffff;
   background-color: #082d77;
-  margin: 1%
-}
-
-.articulosjoyeria{
-  float: left;
-  width: 50%;
 }
 
 @media screen and (max-width: 480px) {
@@ -45,6 +40,8 @@
     text-align: justify;
   }
 
+
+
 }
 
 @media screen and (max-width: 780px) {
@@ -69,7 +66,11 @@
 
 }
 
-
+{
+  float: left;
+  width: 50%;
+  padding: 5%;
+}
 
 .artgrl, .artjoy{
   color: #ffffff !important;
