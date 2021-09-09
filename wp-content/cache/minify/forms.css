@@ -72,11 +72,11 @@
 }
 
 .lineadiv{
-  color: #fac42b;
+  color: #fac42b !important;
   max-width: 60%;
   margin-left: 0;
-  height: 12px;
-  background-color: #fac42b;
+  height: 4px !important;
+  background-color: #fac42b !important;
   border: none;
 }
 
