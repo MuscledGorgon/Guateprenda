@@ -66,6 +66,10 @@
     border-color: #ffffff;
   }
 
+  .articulosjoyeria{
+    width: calc(100% - 5%);
+  }
+
   .artgrl{
     color: #ffffff !important;
     text-align: center;
