@@ -61,6 +61,8 @@
 
   .articulosgeneral{
     width: calc(100% - 5%);
+    border-bottom: 2px solid;
+    border-color: #ffffff;
   }
 
   .artgrl{
