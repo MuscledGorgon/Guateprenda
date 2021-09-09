@@ -12,6 +12,12 @@
   background-color: #082d77;
 }
 
+.articulosjoyeria{
+  float: left;
+  width: 50%;
+  padding: 5%;
+}
+
 @media screen and (max-width: 480px) {
 
   .articulosgeneral{
@@ -69,12 +75,6 @@
     text-shadow: 1px 1px 2px #000
   }
 
-}
-
-.articulosjoyeria{
-  float: left;
-  width: 50%;
-  padding: 5%;
 }
 
 .artgrl, .artjoy{
