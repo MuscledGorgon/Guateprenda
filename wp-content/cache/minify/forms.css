@@ -14,10 +14,15 @@
 
 @media screen and (max-width: 480px) {
 
-  .articulosgeneral, .articulosjoyeria{
+  .articulosgeneral{
     width: calc(100% - 5%);
     border-right: 0px;
   }
+
+  .articulosjoyeria{
+    width: calc(100% - 5%);
+  }
+
 
   .artgrl, .artjoy{
     color: #ffffff !important;
