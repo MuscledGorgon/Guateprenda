@@ -110,6 +110,12 @@
   border: none;
 }
 
+.btntiendas{
+  color: #fff;
+
+
+}
+
 @media screen and (max-width: 480px) {
 
   .articulosgeneral{
