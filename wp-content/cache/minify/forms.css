@@ -24,13 +24,12 @@
 }
 
 .empmoto{
-  padding: 1%;
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 5%;
+  padding-top: 5%;
   float: left;
   width: 50%;
-
 }
 
 .artgrl, .artjoy, .emoto{
