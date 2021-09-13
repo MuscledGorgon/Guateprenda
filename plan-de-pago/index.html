@@ -2173,6 +2173,7 @@
 					<form class="formmoto" action="enviar-moto.php" method="post" name="generales" id="generales">
 
 						<div class="divdin">
+
 							<label for="nombre" class="lablm">Nombre completo</label>
 							<br>
 							<input type="text" class="info" name="nombre" value="" id="nombre" size="50" maxlength="100" required>
@@ -2203,56 +2204,58 @@
 							<br>
 							<br>
 
+							<div class="divmod">
+
+								<label for="modelo" class="lablg">Modelo</label>
+								<br>
+								<input type="text" class="info" name="modelo" value="" size="80" maxlength="250" required>
+								<br>
+								<br>
+
+							</div>
+
+							<div class="divanio">
+
+								<label for="anio" class="lablg">Año</label>
+								<br>
+								<input type="number" class="info" name="anio" value="2021" size="80" min="1990" max="2022" maxlength="4" required>
+								<br>
+								<br>
+
+							</div>
+
+							<div class="divfac">
+
+								<label for="tipo-factura" class="lablg">Tipo de factura</label>
+								<br>
+								<input list="tipo-factura" class="info" type="text" name="tipo-factura" size="40" value="Elige una opción" required>
+								<datalist class="tipo-factura" id="tipo-factura">
+									<option value="Nacional"></option>
+									<option value="Refacturado"></option>
+									<option value="Legalizado"></option>
+								</datalist>
+								<br>
+								<br>
+
+							</div>
+
+							<div class="divemp">
+
+								<label for="modalidad" class="lablg">Modalidad de empeño</label>
+								<br>
+								<input list="modalidad" class="info" type="text" name="modalidad" size="40" value="Elige una opción" required>
+								<datalist class="modalidad" id="modalidad">
+									<option value="Físico"></option>
+									<option value="Solo documentos"></option>
+								</datalist>
+								<br>
+								<br>
+
+							</div>
+
+
 						</div>
 
-						<div class="divmod">
-
-							<label for="modelo" class="lablg">Modelo</label>
-							<br>
-							<input type="text" class="info" name="modelo" value="" size="80" maxlength="250" required>
-							<br>
-							<br>
-
-						</div>
-
-						<div class="divanio">
-
-							<label for="anio" class="lablg">Año</label>
-							<br>
-							<input type="number" class="info" name="anio" value="2021" size="80" min="1990" max="2022" maxlength="4" required>
-							<br>
-							<br>
-
-						</div>
-
-						<div class="divfac">
-
-							<label for="tipo-factura" class="lablg">Tipo de factura</label>
-							<br>
-							<input list="tipo-factura" class="info" type="text" name="tipo-factura" size="40" value="Elige una opción" required>
-							<datalist class="tipo-factura" id="tipo-factura">
-								<option value="Nacional"></option>
-								<option value="Refacturado"></option>
-								<option value="Legalizado"></option>
-							</datalist>
-							<br>
-							<br>
-
-						</div>
-
-						<div class="divemp">
-
-							<label for="modalidad" class="lablg">Modalidad de empeño</label>
-							<br>
-							<input list="modalidad" class="info" type="text" name="modalidad" size="40" value="Elige una opción" required>
-							<datalist class="modalidad" id="modalidad">
-								<option value="Físico"></option>
-								<option value="Solo documentos"></option>
-							</datalist>
-							<br>
-							<br>
-
-						</div>
 
 						<input type="submit" class="btn-enviar" name="" value="Enviar">
 
