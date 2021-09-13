@@ -113,8 +113,13 @@
 
 .btntiendas{
   color: #fff;
+  border: 2px solid;
+  border-radius: 15px;
+  border-color: #082d77;
+}
 
-
+.flechatienda{
+  color: #fff;
 }
 
 @media screen and (max-width: 480px) {
