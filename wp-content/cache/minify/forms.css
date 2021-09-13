@@ -97,8 +97,9 @@
   width: 50%;
 }
 
-.divfac{
+.divfac, .divemp{
   float: left;
+  width: 50%;
 }
 .divcar{
   float: left;
