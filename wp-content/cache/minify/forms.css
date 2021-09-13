@@ -26,7 +26,9 @@
 .empmoto{
   padding: 1%;
   padding-left: 10%;
-  padding-right: 10%
+  padding-right: 10%;
+  float: left;
+  width: 50%
 
 }
 
