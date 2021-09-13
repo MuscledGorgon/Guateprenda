@@ -59,7 +59,23 @@
 }
 
 .enviar{
-  border-radius: 4px;
+  background-image: linear-gradient(135deg, #008aff, #86d472);
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: block;
+  height: 50px;
+  font-size: 1.4em;
+  font-weight: 600;
+  padding: 4px;
+  position: relative;
+  text-decoration: none;
+  width: 7em;
+  z-index: 2;
+}
+
+.enviar:hover{
+  color: #fff;
 }
 
 .pgrl, .pjoy{
@@ -105,7 +121,6 @@
     width: calc(100% - 5%);
   }
 
-
   .artgrl, .artjoy{
     color: #ffffff !important;
     text-align: center;
@@ -126,8 +141,6 @@
     font-weight: 300;
     text-align: justify;
   }
-
-
 
 }
 
