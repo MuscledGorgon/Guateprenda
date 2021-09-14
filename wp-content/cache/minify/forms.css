@@ -95,7 +95,7 @@
 
 .divdin, .divart, .divtel, .divmail, .divmod, .divanio, .divemp, .divtipo{
   float: left;
-  width: 60%;
+  width: 100%;
 }
 
 .divcar{
