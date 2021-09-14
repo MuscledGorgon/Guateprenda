@@ -62,9 +62,7 @@
 }
 
 .enviar{
-  background-image: linear-gradient(135deg, #008aff, #86d472);
   border-radius: 6px;
-  box-sizing: border-box;
   color: #ffffff;
   display: block;
   height: 50px;
