@@ -93,7 +93,7 @@
   font-weight: 400;
 }
 
-.divdin, .divart, .divtel, .divmail, .divmod, .divanio, .divemp{
+.divdin, .divart, .divtel, .divmail, .divmod, .divanio, .divemp, .divtipo{
   float: left;
   width: 50%;
 }
