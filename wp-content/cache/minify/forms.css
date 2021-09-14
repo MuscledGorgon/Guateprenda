@@ -93,9 +93,14 @@
   font-weight: 400;
 }
 
-.divdin, .divart, .divtel, .divmail, .divmod, .divanio, .divemp, .divtipo{
+.divdin, .divart,.divmod, .divanio, .divemp, .divtipo{
   float: left;
   width: 100%;
+}
+
+.divtel, .divmail{
+  float: left;
+  width: 50%;
 }
 
 .divcar{
