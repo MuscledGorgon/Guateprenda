@@ -90,12 +90,12 @@
   font-weight: 400;
 }
 
-.divdin, .divart,.divmod, .divanio, .divemp, .divtipo{
+.divmod, .divanio, .divemp, .divtipo{
   float: left;
   width: 100%;
 }
 
-.divtel, .divmail{
+.divtel, .divmail, .divdin, .divart{
   float: left;
   width: 50%;
 }
