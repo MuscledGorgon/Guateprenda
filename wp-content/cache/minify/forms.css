@@ -12,9 +12,7 @@
   float: left;
   width: 33%;
   padding: 2%;
-  border-right: 2px solid;
-  border-color: #ffffff;
-  background-color: #082d77;
+
 }
 
 .articulosjoyeria{
@@ -22,6 +20,7 @@
   width: 33%;
   padding: 2%;
   border-right: 2px solid;
+  border-left: 2px solid;
   border-color: #ffffff;
   background-color: #082d77;
 }
