@@ -10,7 +10,7 @@
 
 .articulosgeneral{
   float: left;
-  width: 50%;
+  width: 33%;
   padding: 5%;
   border-right: 2px solid;
   border-color: #ffffff;
@@ -19,17 +19,17 @@
 
 .articulosjoyeria{
   float: left;
-  width: 50%;
+  width: 33%;
   padding: 5%;
+  border-right: 2px solid;
+  border-color: #ffffff;
+  background-color: #082d77;
 }
 
 .motocicleta{
-  padding-left: 25%;
-  padding-right: 25%;
-  padding-bottom: 5%;
-  padding-top: 5%;
   float: left;
-  width: 100%;
+  width: 33%;
+  padding: 5%;
   background-color: #082d77;
 }
 
