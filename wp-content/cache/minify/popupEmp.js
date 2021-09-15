@@ -1,6 +1,6 @@
 //GUATEMALA MAPA FOOTER
 
-var btnAbrirPopupEM = document.getElementById('mapa-guat2'),
+var btnAbrirPopupEM = document.getElementById('mapa-guat'),
   overlayEM = document.getElementById('overlay'),
   popupEM = document.getElementById('popup'),
   btnCerrarPopupEM = document.getElementById('btn-cerrar-popup');
@@ -17,7 +17,7 @@ btnCerrarPopupEM.addEventListener('click', function() {
 
 // ALTA VERAPAZ MAPA FOOTER
 
-var btnAbrirPopupAVEM = document.getElementById('mapa-alta2'),
+var btnAbrirPopupAVEM = document.getElementById('mapa-alta'),
   overlayAVEM = document.getElementById('overlayAV'),
   popupAVEM = document.getElementById('popupAV'),
   btnCerrarPopupAVEM = document.getElementById('btn-cerrar-popupAV');
@@ -34,7 +34,7 @@ btnCerrarPopupAVEM.addEventListener('click', function() {
 
 // BAJA VERAPAZ MAPA FOOTER
 
-var btnAbrirPopupBVEM = document.getElementById('mapa-baja2'),
+var btnAbrirPopupBVEM = document.getElementById('mapa-baja'),
   overlayBVEM = document.getElementById('overlayBV'),
   popupBVEM = document.getElementById('popupBV'),
   btnCerrarPopupBVEM = document.getElementById('btn-cerrar-popupBV');
@@ -51,7 +51,7 @@ btnCerrarPopupBVEM.addEventListener('click', function() {
 
 // CHIMALTENANGO MAPA FOOTER
 
-var btnAbrirPopupCHEM = document.getElementById('mapa-chima2'),
+var btnAbrirPopupCHEM = document.getElementById('mapa-chima'),
   overlayCHEM = document.getElementById('overlayCH'),
   popupCHEM = document.getElementById('popupCH'),
   btnCerrarPopupCHEM = document.getElementById('btn-cerrar-popupCH');
@@ -68,7 +68,7 @@ btnCerrarPopupCHEM.addEventListener('click', function() {
 
 //CHIQUIMULA MAPA FOOTER
 
-var btnAbrirPopupCHIEM = document.getElementById('mapa-chiqui2'),
+var btnAbrirPopupCHIEM = document.getElementById('mapa-chiqui'),
   overlayCHIEM = document.getElementById('overlayCHI'),
   popupCHIEM = document.getElementById('popupCHI'),
   btnCerrarPopupCHIEM = document.getElementById('btn-cerrar-popupCHI');
@@ -85,7 +85,7 @@ btnCerrarPopupCHIEM.addEventListener('click', function() {
 
 //ESCUINTLA MAPA FOOTER
 
-var btnAbrirPopupESEM = document.getElementById('mapa-esc2'),
+var btnAbrirPopupESEM = document.getElementById('mapa-esc'),
   overlayESEM = document.getElementById('overlayES'),
   popupESEM = document.getElementById('popupES'),
   btnCerrarPopupESEM = document.getElementById('btn-cerrar-popupES');
@@ -102,7 +102,7 @@ btnCerrarPopupESEM.addEventListener('click', function() {
 
 //HUEHUETENANGO MAPA FOOTER
 
-var btnAbrirPopupHUEEM = document.getElementById('mapa-hue2'),
+var btnAbrirPopupHUEEM = document.getElementById('mapa-hue'),
   overlayHUEEM = document.getElementById('overlayHUE'),
   popupHUEEM = document.getElementById('popupHUE'),
   btnCerrarPopupHUEEM = document.getElementById('btn-cerrar-popupHUE');
@@ -119,7 +119,7 @@ btnCerrarPopupHUEEM.addEventListener('click', function() {
 
 //IZABAL MAPA FOOTER
 
-var btnAbrirPopupIZAEM = document.getElementById('mapa-iza2'),
+var btnAbrirPopupIZAEM = document.getElementById('mapa-iza'),
   overlayIZAEM = document.getElementById('overlayIZA'),
   popupIZAEM = document.getElementById('popupIZA'),
   btnCerrarPopupIZAEM = document.getElementById('btn-cerrar-popupIZA');
@@ -136,7 +136,7 @@ btnCerrarPopupIZAEM.addEventListener('click', function() {
 
 //JALAPA MAPA FOOTER
 
-var btnAbrirPopupJALEM = document.getElementById('mapa-jal2'),
+var btnAbrirPopupJALEM = document.getElementById('mapa-jal'),
   overlayJALEM = document.getElementById('overlayJAL'),
   popupJALEM = document.getElementById('popupJAL'),
   btnCerrarPopupJALEM = document.getElementById('btn-cerrar-popupJAL');
@@ -153,7 +153,7 @@ btnCerrarPopupJALEM.addEventListener('click', function() {
 
 //JUTIAPA MAPA FOOTER
 
-var btnAbrirPopupJUTEM = document.getElementById('mapa-jut2'),
+var btnAbrirPopupJUTEM = document.getElementById('mapa-jut'),
   overlayJUTEM = document.getElementById('overlayJUT'),
   popupJUTEM = document.getElementById('popupJUT'),
   btnCerrarPopupJUTEM = document.getElementById('btn-cerrar-popupJUT');
@@ -170,7 +170,7 @@ btnCerrarPopupJUTEM.addEventListener('click', function() {
 
 //PETÉN MAPA FOOTER
 
-var btnAbrirPopupPETEM = document.getElementById('mapa-pet2'),
+var btnAbrirPopupPETEM = document.getElementById('mapa-pet'),
   overlayPETEM = document.getElementById('overlayPET'),
   popupPETEM = document.getElementById('popupPET'),
   btnCerrarPopupPETEM = document.getElementById('btn-cerrar-popupPET');
@@ -187,7 +187,7 @@ btnCerrarPopupPETEM.addEventListener('click', function() {
 
 //EL PROGRESO MAPA FOOTER
 
-var btnAbrirPopupPROEM = document.getElementById('mapa-pro2'),
+var btnAbrirPopupPROEM = document.getElementById('mapa-pro'),
   overlayPROEM = document.getElementById('overlayPRO'),
   popupPROEM = document.getElementById('popupPRO'),
   btnCerrarPopupPROEM = document.getElementById('btn-cerrar-popupPRO');
@@ -204,7 +204,7 @@ btnCerrarPopupPROEM.addEventListener('click', function() {
 
 //QUETZALTENANGO MAPA FOOTER
 
-var btnAbrirPopupQUEEM = document.getElementById('mapa-quetz2'),
+var btnAbrirPopupQUEEM = document.getElementById('mapa-quetz'),
   overlayQUEEM = document.getElementById('overlayQUE'),
   popupQUEEM = document.getElementById('popupQUE'),
   btnCerrarPopupQUEEM = document.getElementById('btn-cerrar-popupQUE');
@@ -221,7 +221,7 @@ btnCerrarPopupQUEEM.addEventListener('click', function() {
 
 //RETALHULEU MAPA FOOTER
 
-var btnAbrirPopupRETEM = document.getElementById('mapa-reta2'),
+var btnAbrirPopupRETEM = document.getElementById('mapa-reta'),
   overlayRETEM = document.getElementById('overlayRET'),
   popupRETEM = document.getElementById('popupRET'),
   btnCerrarPopupRETEM = document.getElementById('btn-cerrar-popupRET');
@@ -238,7 +238,7 @@ btnCerrarPopupRETEM.addEventListener('click', function() {
 
 //QUICHÉ MAPA FOOTER
 
-var btnAbrirPopupQUIEM = document.getElementById('mapa-qui2'),
+var btnAbrirPopupQUIEM = document.getElementById('mapa-qui'),
   overlayQUIEM = document.getElementById('overlayQUI'),
   popupQUIEM = document.getElementById('popupQUI'),
   btnCerrarPopupQUIEM = document.getElementById('btn-cerrar-popupQUI');
@@ -255,7 +255,7 @@ btnCerrarPopupQUIEM.addEventListener('click', function() {
 
 //SACATEPÉQUEZ MAPA FOOTER
 
-var btnAbrirPopupSACEM = document.getElementById('mapa-sac2'),
+var btnAbrirPopupSACEM = document.getElementById('mapa-sac'),
   overlaySACEM = document.getElementById('overlaySAC'),
   popupSACEM = document.getElementById('popupSAC'),
   btnCerrarPopupSACEM = document.getElementById('btn-cerrar-popupSAC');
@@ -272,7 +272,7 @@ btnCerrarPopupSACEM.addEventListener('click', function() {
 
 //SAN MARCOS MAPA FOOTER
 
-var btnAbrirPopupSANEM = document.getElementById('mapa-san2'),
+var btnAbrirPopupSANEM = document.getElementById('mapa-san'),
   overlaySANEM = document.getElementById('overlaySAN'),
   popupSANEM = document.getElementById('popupSAN'),
   btnCerrarPopupSANEM = document.getElementById('btn-cerrar-popupSAN');
@@ -289,7 +289,7 @@ btnCerrarPopupSANEM.addEventListener('click', function() {
 
 //SUCHITEPÉQUEZ MAPA FOOTER
 
-var btnAbrirPopupSUCHEM = document.getElementById('mapa-such2'),
+var btnAbrirPopupSUCHEM = document.getElementById('mapa-such'),
   overlaySUCHEM = document.getElementById('overlaySUCH'),
   popupSUCHEM = document.getElementById('popupSUCH'),
   btnCerrarPopupSUCHEM = document.getElementById('btn-cerrar-popupSUCH');
@@ -306,7 +306,7 @@ btnCerrarPopupSUCHEM.addEventListener('click', function() {
 
 //TOTONICAPÁN MAPA FOOTER
 
-var btnAbrirPopupTOTEM = document.getElementById('mapa-tot2'),
+var btnAbrirPopupTOTEM = document.getElementById('mapa-tot'),
   overlayTOTEM = document.getElementById('overlayTOT'),
   popupTOTEM = document.getElementById('popupTOT'),
   btnCerrarPopupTOTEM = document.getElementById('btn-cerrar-popupTOT');
@@ -323,7 +323,7 @@ btnCerrarPopupTOTH.addEventListener('click', function() {
 
 //ZACAPA MAPA FOOTER
 
-var btnAbrirPopupZACEM = document.getElementById('mapa-zac2'),
+var btnAbrirPopupZACEM = document.getElementById('mapa-zac'),
   overlayZACEM = document.getElementById('overlayZAC'),
   popupZACEM = document.getElementById('popupZAC'),
   btnCerrarPopupZACEM = document.getElementById('btn-cerrar-popupZAC');
