@@ -129,12 +129,18 @@
 
   .articulosgeneral{
     width: calc(100% - 5%);
+  }
+
+  .articulosjoyeria{
+    width: calc(100% - 5%);
     border-right: 0px;
+    border-left: 0px;
+    border-top: 2px solid;
     border-bottom: 2px solid;
     border-color: #ffffff;
   }
 
-  .articulosjoyeria{
+  .motocicleta{
     width: calc(100% - 5%);
   }
 
@@ -165,12 +171,18 @@
 
   .articulosgeneral{
     width: calc(100% - 5%);
+  }
+
+  .articulosjoyeria{
+    width: calc(100% - 5%);
     border-right: 0px;
+    border-left: 0px;
+    border-top: 2px solid;
     border-bottom: 2px solid;
     border-color: #ffffff;
   }
 
-  .articulosjoyeria{
+  .motocicleta{
     width: calc(100% - 5%);
   }
 
