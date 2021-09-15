@@ -1,37 +1,3 @@
-//GUATEMALA HOME
-
-var btnAbrirPopup = document.getElementById('btn-guat1'),
-  overlay = document.getElementById('overlay'),
-  popup = document.getElementById('popup'),
-  btnCerrarPopup = document.getElementById('btn-cerrar-popup');
-
-btnAbrirPopup.addEventListener('click', function() {
-  overlay.classList.add('active')
-  popup.classList.add('active')
-})
-
-btnCerrarPopup.addEventListener('click', function() {
-  overlay.classList.remove('active')
-  popup.classList.remove('active')
-})
-
-//GUATEMALA MAPA
-
-var btnAbrirPopup = document.getElementById('btn-mh-guat1'),
-  overlay = document.getElementById('overlay'),
-  popup = document.getElementById('popup'),
-  btnCerrarPopup = document.getElementById('btn-cerrar-popup');
-
-btnAbrirPopup.addEventListener('click', function() {
-  overlay.classList.add('active')
-  popup.classList.add('active')
-})
-
-btnCerrarPopup.addEventListener('click', function() {
-  overlay.classList.remove('active')
-  popup.classList.remove('active')
-})
-
 //GUATEMALA MAPA FOOTER
 
 var btnAbrirPopup = document.getElementById('mapa-guat2'),
@@ -47,40 +13,6 @@ btnAbrirPopup.addEventListener('click', function() {
 btnCerrarPopup.addEventListener('click', function() {
   overlay.classList.remove('active')
   popup.classList.remove('active')
-})
-
-// ALTA VERAPAZ
-
-var btnAbrirPopupAVH = document.getElementById('btn-alta'),
-  overlayAVH = document.getElementById('overlayAV'),
-  popupAVH = document.getElementById('popupAV'),
-  btnCerrarPopupAVH = document.getElementById('btn-cerrar-popupAV');
-
-btnAbrirPopupAVH.addEventListener('click', function() {
-  overlayAVH.classList.add('active')
-  popupAVH.classList.add('active')
-})
-
-btnCerrarPopupAVH.addEventListener('click', function() {
-  overlayAVH.classList.remove('active')
-  popupAVH.classList.remove('active')
-})
-
-// ALTA VERAPAZ MAPA
-
-var btnAbrirPopupAVH = document.getElementById('mapa-alta'),
-  overlayAVH = document.getElementById('overlayAV'),
-  popupAVH = document.getElementById('popupAV'),
-  btnCerrarPopupAVH = document.getElementById('btn-cerrar-popupAV');
-
-btnAbrirPopupAVH.addEventListener('click', function() {
-  overlayAVH.classList.add('active')
-  popupAVH.classList.add('active')
-})
-
-btnCerrarPopupAVH.addEventListener('click', function() {
-  overlayAVH.classList.remove('active')
-  popupAVH.classList.remove('active')
 })
 
 // ALTA VERAPAZ MAPA FOOTER
@@ -100,39 +32,6 @@ btnCerrarPopupAVH.addEventListener('click', function() {
   popupAVH.classList.remove('active')
 })
 
-// BAJA VERAPAZ
-
-var btnAbrirPopupBVH = document.getElementById('btn-baja'),
-  overlayBVH = document.getElementById('overlayBV'),
-  popupBVH = document.getElementById('popupBV'),
-  btnCerrarPopupBVH = document.getElementById('btn-cerrar-popupBV');
-
-btnAbrirPopupBVH.addEventListener('click', function() {
-  overlayBVH.classList.add('active')
-  popupBVH.classList.add('active')
-})
-
-btnCerrarPopupBVH.addEventListener('click', function() {
-  overlayBVH.classList.remove('active')
-  popupBVH.classList.remove('active')
-})
-
-// BAJA VERAPAZ MAPA
-
-var btnAbrirPopupBVH = document.getElementById('mapa-baja'),
-  overlayBVH = document.getElementById('overlayBV'),
-  popupBVH = document.getElementById('popupBV'),
-  btnCerrarPopupBVH = document.getElementById('btn-cerrar-popupBV');
-
-btnAbrirPopupBVH.addEventListener('click', function() {
-  overlayBVH.classList.add('active')
-  popupBVH.classList.add('active')
-})
-
-btnCerrarPopupBVH.addEventListener('click', function() {
-  overlayBVH.classList.remove('active')
-  popupBVH.classList.remove('active')
-})
 
 // BAJA VERAPAZ MAPA FOOTER
 
@@ -151,39 +50,6 @@ btnCerrarPopupBVH.addEventListener('click', function() {
   popupBVH.classList.remove('active')
 })
 
-// CHIMALTENANGO
-
-var btnAbrirPopupCHH = document.getElementById('btn-chima'),
-  overlayCHH = document.getElementById('overlayCH'),
-  popupCHH = document.getElementById('popupCH'),
-  btnCerrarPopupCHH = document.getElementById('btn-cerrar-popupCH');
-
-btnAbrirPopupCHH.addEventListener('click', function() {
-  overlayCHH.classList.add('active')
-  popupCHH.classList.add('active')
-})
-
-btnCerrarPopupCHH.addEventListener('click', function() {
-  overlayCHH.classList.remove('active')
-  popupCHH.classList.remove('active')
-})
-
-// CHIMALTENANGO MAPA
-
-var btnAbrirPopupCHH = document.getElementById('mapa-chima'),
-  overlayCHH = document.getElementById('overlayCH'),
-  popupCHH = document.getElementById('popupCH'),
-  btnCerrarPopupCHH = document.getElementById('btn-cerrar-popupCH');
-
-btnAbrirPopupCHH.addEventListener('click', function() {
-  overlayCHH.classList.add('active')
-  popupCHH.classList.add('active')
-})
-
-btnCerrarPopupCHH.addEventListener('click', function() {
-  overlayCHH.classList.remove('active')
-  popupCHH.classList.remove('active')
-})
 
 // CHIMALTENANGO MAPA FOOTER
 
@@ -202,39 +68,6 @@ btnCerrarPopupCHH.addEventListener('click', function() {
   popupCHH.classList.remove('active')
 })
 
-//CHIQUIMULA
-
-var btnAbrirPopupCHIH = document.getElementById('btn-chiqui'),
-  overlayCHIH = document.getElementById('overlayCHI'),
-  popupCHIH = document.getElementById('popupCHI'),
-  btnCerrarPopupCHIH = document.getElementById('btn-cerrar-popupCHI');
-
-btnAbrirPopupCHIH.addEventListener('click', function() {
-  overlayCHIH.classList.add('active')
-  popupCHIH.classList.add('active')
-})
-
-btnCerrarPopupCHIH.addEventListener('click', function() {
-  overlayCHIH.classList.remove('active')
-  popupCHIH.classList.remove('active')
-})
-
-//CHIQUIMULA MAPA
-
-var btnAbrirPopupCHIH = document.getElementById('mapa-chiqui'),
-  overlayCHIH = document.getElementById('overlayCHI'),
-  popupCHIH = document.getElementById('popupCHI'),
-  btnCerrarPopupCHIH = document.getElementById('btn-cerrar-popupCHI');
-
-btnAbrirPopupCHIH.addEventListener('click', function() {
-  overlayCHIH.classList.add('active')
-  popupCHIH.classList.add('active')
-})
-
-btnCerrarPopupCHIH.addEventListener('click', function() {
-  overlayCHIH.classList.remove('active')
-  popupCHIH.classList.remove('active')
-})
 
 //CHIQUIMULA MAPA FOOTER
 
@@ -253,39 +86,6 @@ btnCerrarPopupCHIH.addEventListener('click', function() {
   popupCHIH.classList.remove('active')
 })
 
-//ESCUINTLA
-
-var btnAbrirPopupESH = document.getElementById('btn-esc'),
-  overlayESH = document.getElementById('overlayES'),
-  popupESH = document.getElementById('popupES'),
-  btnCerrarPopupESH = document.getElementById('btn-cerrar-popupES');
-
-btnAbrirPopupESH.addEventListener('click', function() {
-  overlayESH.classList.add('active')
-  popupESH.classList.add('active')
-})
-
-btnCerrarPopupESH.addEventListener('click', function() {
-  overlayESH.classList.remove('active')
-  popupESH.classList.remove('active')
-})
-
-//ESCUINTLA MAPA
-
-var btnAbrirPopupESH = document.getElementById('mapa-esc'),
-  overlayESH = document.getElementById('overlayES'),
-  popupESH = document.getElementById('popupES'),
-  btnCerrarPopupESH = document.getElementById('btn-cerrar-popupES');
-
-btnAbrirPopupESH.addEventListener('click', function() {
-  overlayESH.classList.add('active')
-  popupESH.classList.add('active')
-})
-
-btnCerrarPopupESH.addEventListener('click', function() {
-  overlayESH.classList.remove('active')
-  popupESH.classList.remove('active')
-})
 
 //ESCUINTLA MAPA FOOTER
 
@@ -304,39 +104,6 @@ btnCerrarPopupESH.addEventListener('click', function() {
   popupESH.classList.remove('active')
 })
 
-//HUEHUETENANGO
-
-var btnAbrirPopupHUEH = document.getElementById('btn-hue'),
-  overlayHUEH = document.getElementById('overlayHUE'),
-  popupHUEH = document.getElementById('popupHUE'),
-  btnCerrarPopupHUEH = document.getElementById('btn-cerrar-popupHUE');
-
-btnAbrirPopupHUEH.addEventListener('click', function() {
-  overlayHUEH.classList.add('active')
-  popupHUEH.classList.add('active')
-})
-
-btnCerrarPopupHUEH.addEventListener('click', function() {
-  overlayHUEH.classList.remove('active')
-  popupHUEH.classList.remove('active')
-})
-
-//HUEHUETENANGO MAPA
-
-var btnAbrirPopupHUEH = document.getElementById('mapa-hue'),
-  overlayHUEH = document.getElementById('overlayHUE'),
-  popupHUEH = document.getElementById('popupHUE'),
-  btnCerrarPopupHUEH = document.getElementById('btn-cerrar-popupHUE');
-
-btnAbrirPopupHUEH.addEventListener('click', function() {
-  overlayHUEH.classList.add('active')
-  popupHUEH.classList.add('active')
-})
-
-btnCerrarPopupHUEH.addEventListener('click', function() {
-  overlayHUEH.classList.remove('active')
-  popupHUEH.classList.remove('active')
-})
 
 //HUEHUETENANGO MAPA FOOTER
 
