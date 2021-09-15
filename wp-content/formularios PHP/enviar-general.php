@@ -14,12 +14,12 @@ $header .= "Mime-Version: 1.0 \r\n";
 $header .= "Content-Type: text/plain";
 
 $mensaje = "Este mensaje fue enviado por: " . $nombre . "\r\n";
-$mensaje .= "Su mail es: " . $mail . "\r\n";
-$mensaje .= "Prestamo necesario: $" . $_POST['dinero'] . "\r\n";
-$mensaje .= "Articulo a empeñar: " . $_POST['articulo']. "\r\n";
-$mensaje .= "Características del articulo: " . $_POST['caracteristicas'] . "\r\n";
-$mensaje .= "Telefono de contacto: " . $_POST['telefono'] . "\r\n";
-$mensaje .= "Enviado el: " . date('d/m/Y', time());
+$mensaje .= "\r\nSu mail es: " . $mail . "\r\n";
+$mensaje .= "\r\nPrestamo necesario: $" . $_POST['dinero'] . "\r\n";
+$mensaje .= "\r\nArticulo a empeñar: " . $_POST['articulo']. "\r\n";
+$mensaje .= "\r\nCaracterísticas del articulo: " . $_POST['caracteristicas'] . "\r\n";
+$mensaje .= "\r\nTelefono de contacto: " . $_POST['telefono'] . "\r\n";
+$mensaje .= "\r\nEnviado el: " . date('d/m/Y', time());
 
 $para = "bernardo_martinez@ezcorp.com";
 $asunto = 'Esto es una prueba';
