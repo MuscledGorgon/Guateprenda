@@ -316,7 +316,7 @@ btnAbrirPopupTOTEM.addEventListener('click', function() {
   popupTOTEM.classList.add('active')
 })
 
-btnCerrarPopupTOTH.addEventListener('click', function() {
+btnCerrarPopupTOTEM.addEventListener('click', function() {
   overlayTOTEM.classList.remove('active')
   popupTOTEM.classList.remove('active')
 })
