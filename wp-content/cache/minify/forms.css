@@ -161,6 +161,11 @@
     text-shadow: 1px 1px 2px #000
   }
 
+  .divmod, .divanio, .divemp, .divtipo, .divtel, .divmail, .divdin, .divart{
+    float: left;
+    width: 100%;
+  }
+
   .pgrl, .pjoy{
     color: #ffffff;
     font-size: 11px;
