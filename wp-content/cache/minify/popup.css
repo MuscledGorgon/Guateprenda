@@ -13,7 +13,6 @@
 
 .overlay.active{
   visibility: visible;
-  z-index: 1;
 }
 
 .popup{
