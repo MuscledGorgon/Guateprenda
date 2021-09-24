@@ -1996,3 +1996,7 @@ path.selected {
 .formulariocont{
   background-color: #ffffff !important;
 }
+
+.botoncont{
+  width: 50%;
+}
