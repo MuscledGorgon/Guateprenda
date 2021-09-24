@@ -1978,6 +1978,8 @@ path.selected {
 
 
 .txtcontacto{
+  float: left;
   width: 50%;
+  padding: 2%;
   background-color: #ffffff !important;
 }
