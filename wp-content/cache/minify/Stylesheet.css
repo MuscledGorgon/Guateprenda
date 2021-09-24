@@ -1983,3 +1983,12 @@ path.selected {
   padding: 2%;
   background-color: #ffffff !important;
 }
+.formcontacto{
+  float: left;
+  width: 50%;
+  padding: 2%;
+  background-color: #ffffff !important;
+}
+.divcarrusel{
+  width: 100%;
+}
