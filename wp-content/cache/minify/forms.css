@@ -15,6 +15,11 @@
   background-color: #082d77;
 }
 
+.txtcontacto{
+  float: left;
+  width: 50%;
+}
+
 .articulosgeneral{
   float: left;
   width: 33%;
