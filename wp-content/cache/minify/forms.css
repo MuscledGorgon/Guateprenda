@@ -145,6 +145,16 @@
   border-radius: 6px;
 }
 
+.txtcontacto{
+  background-color: #ffffff !important;
+}
+
+.titulocontacto{
+  color: #fac42b;
+  font-size: 16px;
+  font-weight: 400;
+}
+
 @media screen and (max-width: 480px) {
 
   .articulosgeneral{
