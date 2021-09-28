@@ -47,7 +47,7 @@
   padding: 2%;
 }
 
-.artgrl, .artjoy, .motoemp{
+.artgrl, .artjoy, .motoemp, .titulocontacto{
   color: #ffffff !important;
   text-align: center;
   font-size: 34px;
@@ -147,12 +147,6 @@
 
 .txtcontacto{
   background-color: #ffffff !important;
-}
-
-.titulocontacto{
-  color: #fac42b;
-  font-size: 16px;
-  font-weight: 400;
 }
 
 .divcontacto{
