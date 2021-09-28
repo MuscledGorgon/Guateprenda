@@ -149,6 +149,10 @@
   border-radius: 6px;
 }
 
+.titulocontacto{
+  width: 80%;
+}
+
 .txtcontacto{
   color: #ffffff;
   text-align: justify;
