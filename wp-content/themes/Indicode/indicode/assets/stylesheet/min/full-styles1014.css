@@ -977,7 +977,7 @@ h6 {
 }
 
 #mk-footer {
-  
+
 }
 
 #mk-footer.mk-footer-unfold {
@@ -1781,7 +1781,7 @@ p.demo_store {
 }
 
 .mk-video-color-mask {
-  opacity: .7
+
 }
 
 .mk-video-preload {
@@ -23288,7 +23288,8 @@ button, input, select, textarea {
 }
 
 .mk-page-section:not(.mk-adaptive-height):not(.intro-true) {
-  height: auto !important
+  height: auto !important;
+  background-color: #f5f5f5;
 }
 
 .mk-page-section-inner {
