@@ -367,11 +367,11 @@
         <script type="text/javascript">
           document.addEventListener('DOMContentLoaded', function() {
             new Splide('#image-slider', {
+              type: 'loop',
               'cover': true,
               'heightRatio': 0.3,
+              perPage    : 1,
             }).mount();
-            type: 'loop',
-            perPage: 1,
             perMove: 1,
             autoplay: true,
             drag: false,
