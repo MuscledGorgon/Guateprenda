@@ -1786,9 +1786,9 @@ div#wpadminbar li#wp-admin-bar-alter_admin_title {
   text-align: center;
 }
 
-.full-width-6 .mk-video-color-mask {
-  background: #ffffff;  
-}
+/*.full-width-6 .mk-video-color-mask {
+  background: #ffffff;
+}*/
 
 .full-width-6 {
   min-height: 100px;
