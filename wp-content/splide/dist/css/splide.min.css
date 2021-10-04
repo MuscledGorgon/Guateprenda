@@ -58,7 +58,9 @@
 }
 
 .splide__slide img {
-	vertical-align: bottom
+	vertical-align: bottom;
+	width : 100%;
+	height: auto;
 }
 
 .splide__slider {
