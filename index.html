@@ -8,6 +8,16 @@
   <link rel="stylesheet" type="text/css" href="wp-content/cache/minify/Stylesheet.css" />
   <link rel="stylesheet" type="text/css" href="wp-content/cache/minify/popup.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+
+  <script src="path-to-the-file/splide.min.js"></script>
+  <!-- Link to the file hosted on your server, -->
+  <link rel="stylesheet" href="path-to-the-file/splide.min.css">
+  <!-- or the one installed in node_modules directory, -->
+  <link rel="stylesheet" href="node_modules/@splidejs/splide/dist/css/splide.min.css">
+  <!-- or the reference on CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -342,6 +352,19 @@
             <img src="wp-content/uploads/2019/09/2-1.jpg" alt="">
             <img src="wp-content/uploads/2019/09/1-1.jpg" alt="">
           </figure>
+        </div>
+
+        <div id="image-slider" class="splide">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <img src="1-1.jpg">
+              </li>
+              <li class="splide__slide">
+                <img src="2-1.jpg">
+              </li>              
+            </ul>
+          </div>
         </div>
 
         <!--  Carrusel principal -->
