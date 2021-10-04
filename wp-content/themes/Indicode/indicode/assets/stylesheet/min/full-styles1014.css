@@ -23289,7 +23289,6 @@ button, input, select, textarea {
 
 .mk-page-section:not(.mk-adaptive-height):not(.intro-true) {
   height: auto !important;
-  background-color: #f5f5f5;
 }
 
 .mk-page-section-inner {
