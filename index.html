@@ -368,11 +368,19 @@
         </div>
 
         <script type="text/javascript">
-        document.addEventListener( 'DOMContentLoaded', function () {
-          new Splide( '#image-slider' ).mount();
-        } );
-      </script>
+          document.addEventListener('DOMContentLoaded', function() {
+            new Splide('#image-slider').mount();
+          });
+        </script>
 
+        <script type="text/javascript">
+          document.addEventListener('DOMContentLoaded', function() {
+            new Splide('#image-slider', {
+              'cover': true,
+              'heightRatio': 0.5,
+            }).mount();
+          });
+        </script>
 
         <!--  Carrusel principal -->
 
