@@ -752,15 +752,43 @@
 
         <!--        Carrusel Secundario        -->
 
-        <div id="carrusel">
-          <figure>
-            <img src="wp-content/uploads/2019/04/v001.jpg" alt="">
-            <img src="wp-content/uploads/2019/04/v002.jpg" alt="">
-            <img src="wp-content/uploads/2019/04/v003.jpg" alt="">
-            <img src="wp-content/uploads/2019/04/v004.jpg" alt="">
-            <img src="wp-content/uploads/2019/04/v001.jpg" alt="">
-          </figure>
+        
+        <div id="image-slider" class="splide">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <img src="wp-content/uploads/2019/04/v001.jpg">
+              </li>
+              <li class="splide__slide">
+                <img src="wp-content/uploads/2019/04/v002.jpg">
+              </li>
+              <li class="splide__slide">
+                <img src="wp-content/uploads/2019/04/v003.jpg">
+              </li>
+              <li class="splide__slide">
+                <img src="wp-content/uploads/2019/04/v004.jpg">
+              </li>
+            </ul>
+          </div>
         </div>
+
+
+        <script type="text/javascript">
+          document.addEventListener('DOMContentLoaded', function() {
+            new Splide('#image-slider', {
+              type: 'loop',
+              arrows: false,
+              'cover': true,
+              fixedHeight: '80vh',
+              perPage: 1,
+              perMove: 1,
+              autoplay: true,
+              drag: false,
+              speed: 6000,
+            }).mount();
+          });
+        </script>
+
 
         <!--        Carrusel Secundario        -->
 
