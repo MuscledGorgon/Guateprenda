@@ -21,8 +21,8 @@ $mensaje .= "\r\nCaracterísticas del articulo: " . $_POST['caracteristicas'] . 
 $mensaje .= "\r\nTelefono de contacto: " . $_POST['telefono'] . "\r\n";
 $mensaje .= "\r\nEnviado el: " . date('d/m/Y', time());
 
-$para = "bernardo_martinez@ezcorp.com";
-$asunto = 'Esto es una prueba';
+$para = "";
+$asunto = 'Artículos en General';
 
 mail($para, $asunto, utf8_decode($mensaje), $header);
 echo "Mensaje enviado correctamente";
