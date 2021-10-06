@@ -9,6 +9,10 @@
 	<link rel="stylesheet" type="text/css" href="../wp-content/cache/minify/popup.css" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
 
+	<script src="../wp-content/splide/dist/js/splide.min.js"></script>
+	<!-- Link to the file hosted on your server, -->
+	<link rel="stylesheet" href="../wp-content/splide/dist/css/splide.min.css">
+
 
 	<link rel="stylesheet" type="text/css" href="formato.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
@@ -1710,18 +1714,46 @@
 					</div>
 				</div>
 
-				<!--  Carrusel principal -->
 
-				<div id="carrusel">
-					<figure>
-						<img src="../wp-content/uploads/2019/04/e001.jpg" alt="">
-						<img src="../wp-content/uploads/2019/04/e002.jpg" alt="">
-						<img src="../wp-content/uploads/2019/04/e003.jpg" alt="">
-						<img src="../wp-content/uploads/2019/04/e001.jpg" alt="">
-					</figure>
+				<!--        Carrusel Principal        -->
+
+
+				<div id="slider-principal" class="splide">
+					<div class="splide__track">
+						<ul class="splide__list">
+							<li class="splide__slide">
+								<img src="../wp-content/uploads/2019/04/e001.jpg">
+							</li>
+							<li class="splide__slide">
+								<img src="../wp-content/uploads/2019/04/e002.jpg">
+							</li>
+							<li class="splide__slide">
+								<img src="../wp-content/uploads/2019/04/e003.jpg">
+							</li>
+						</ul>
+					</div>
 				</div>
 
-				<!--  Carrusel principal -->
+
+				<script type="text/javascript">
+					document.addEventListener('DOMContentLoaded', function() {
+						new Splide('#slider-principal', {
+							type: 'loop',
+							arrows: false,
+							'cover': true,
+							fixedHeight: '80vh',
+							perPage: 1,
+							perMove: 1,
+							autoplay: true,
+							drag: false,
+							speed: 1000,
+						}).mount();
+					});
+				</script>
+
+
+				<!--        Carrusel Carrusel Principal         -->
+
 
 			</div>
 
@@ -2017,19 +2049,49 @@
 			<div class="mk-page-section-wrapper">
 				<div id="garantias" class="mk-page-section self-hosted   full_layout full-width-19 js-el js-master-row    " data-intro-effect="false">
 
-					<!--        Carrusel Secundario        -->
 
-					<div id="carrusel">
-						<figure>
-							<img src="../wp-content/uploads/2019/04/v001.jpg" alt="">
-							<img src="../wp-content/uploads/2019/04/v002.jpg" alt="">
-							<img src="../wp-content/uploads/2019/04/v003.jpg" alt="">
-							<img src="../wp-content/uploads/2019/04/v004.jpg" alt="">
-							<img src="../wp-content/uploads/2019/04/v001.jpg" alt="">
-						</figure>
+					<!--        Carrusel Secundario         -->
+
+
+					<div id="slider-secundario" class="splide">
+						<div class="splide__track">
+							<ul class="splide__list">
+								<li class="splide__slide">
+									<img src="../wp-content/uploads/2019/04/v001.jpg">
+								</li>
+								<li class="splide__slide">
+									<img src="../wp-content/uploads/2019/04/v002.jpg">
+								</li>
+								<li class="splide__slide">
+									<img src="../wp-content/uploads/2019/04/v003.jpg">
+								</li>
+								<li class="splide__slide">
+									<img src="../wp-content/uploads/2019/04/v004.jpg">
+								</li>
+							</ul>
+						</div>
 					</div>
 
-					<!--        Carrusel Secundario        -->
+
+					<script type="text/javascript">
+						document.addEventListener('DOMContentLoaded', function() {
+							new Splide('#slider-secundario', {
+								type: 'loop',
+								arrows: false,
+								'cover': true,
+								fixedHeight: '80vh',
+								perPage: 1,
+								perMove: 1,
+								autoplay: true,
+								drag: false,
+								speed: 1000,
+							}).mount();
+						});
+					</script>
+
+
+					<!--        Carrusel Carrusel Secundario          -->
+
 
 				</div>
 			</div>
@@ -2101,14 +2163,6 @@
 							<div class="widgettitle">Guateprenda</div>
 							<div class="menu-footer-menu-container">
 								<ul id="menu-footer-menu" class="menu">
-									<li id="menu-item-657" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-657"><a href="../descubre-quienes-somos/index.html"><svg class="mk-svg-icon" data-name="mk-icon-angle-right"
-												data-cacheid="icon-60eda95c1dbe3" style=" height:14px; width: 5px; " xmlns="http://www.w3.org/2000/svg" viewbox="0 0 640 1792">
-												<path d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path>
-											</svg>¿Quiénes somos?</a></li>
-									<li id="menu-item-658" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-658"><a href="../preguntas-frecuentes/index.html"><svg class="mk-svg-icon" data-name="mk-icon-angle-right"
-												data-cacheid="icon-60eda95c1dbe3" style=" height:14px; width: 5px; " xmlns="http://www.w3.org/2000/svg" viewbox="0 0 640 1792">
-												<path d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path>
-											</svg>Preguntas Frecuentes</a></li>
 									<li id="menu-item-659" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-16 current_page_item menu-item-659"><a href="index.html"><svg class="mk-svg-icon"
 												data-name="mk-icon-angle-right" data-cacheid="icon-60eda95c1dbe3" style=" height:14px; width: 5px; " xmlns="http://www.w3.org/2000/svg" viewbox="0 0 640 1792">
 												<path d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path>
