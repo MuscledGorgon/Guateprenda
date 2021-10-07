@@ -2013,7 +2013,7 @@ nav {
   .nav li{position: relative;}
   .nav > li {
     float:left;
-    border-bottom: 4px #aaa solid;
+    border-bottom: 0px #aaa solid;
     margin-right: 1px;
   }
   .nav > li > a {
