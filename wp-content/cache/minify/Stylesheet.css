@@ -1990,7 +1990,7 @@ path.selected {
 
 /* Navigation links */
 .navbar a {
- float: left;
+ float: right;
  font-size: 16px;
  color: white;
  text-align: center;
