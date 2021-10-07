@@ -2011,7 +2011,7 @@ nav ul {
   display:block;
   background: #f9b700;
   color: #0a4993;
-  line-height: 2vh;
+  line-height: 6vh;
   text-decoration: none;
   padding: 0.8em 1.8em;
   text-transform: uppercase;
@@ -2021,7 +2021,7 @@ nav ul {
   position: relative;
 }
 .nav{
-  vertical-align: top;
+  vertical-align: center;
   display: inline-block;
   border-radius:6px;
 }
