@@ -1987,6 +1987,7 @@ path.selected {
 nav {
     display: block;
     text-align: center;
+    z-index: 2;
   }
   nav ul {
     margin: 0;
