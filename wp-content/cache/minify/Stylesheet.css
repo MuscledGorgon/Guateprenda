@@ -2038,6 +2038,7 @@ nav ul {
 .nav > li:hover,
 .nav > li:hover > a {
   border-bottom-color: #f9b700;
+  color: #fff;
 }
 .nav li:hover > a {
   color:#f9b700;
