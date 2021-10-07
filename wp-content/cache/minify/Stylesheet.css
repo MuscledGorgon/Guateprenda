@@ -2029,7 +2029,7 @@ nav ul {
   position: relative;
 }
 .nav > li {
-  float: left;
+  float: right;
   margin-right: 1px;
 }
 .nav > li > a {
