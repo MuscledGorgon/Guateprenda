@@ -2085,9 +2085,6 @@ nav {
   border-top-color: #aaa;
 }
 .nav > li:hover > a:first-child:nth-last-child(2):before {
-  border: 5px solid transparent;
-  border-bottom-color: orange;
-  margin-top:-5px
 }
 .nav li li > a:first-child:nth-last-child(2):before {
   border-left-color: #aaa;
