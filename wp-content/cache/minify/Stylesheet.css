@@ -2009,7 +2009,7 @@ nav ul {
 }
 .nav a {
   display:block;
-  background: #f9b700;
+  background: #fac42b;
   color: #0a4993;
   line-height: 6vh;
   text-decoration: none;
@@ -2038,7 +2038,6 @@ nav ul {
 .nav > li:hover,
 .nav > li:hover > a {
   border-bottom-color: #f9b700;
-  color: #fff;
 }
 .nav li:hover > a {
   color:#f9b700;
