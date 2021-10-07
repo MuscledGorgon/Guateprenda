@@ -2072,7 +2072,7 @@ nav ul {
  }
 
  /* submenu positioning*/
-.nav ul {
+.nav ul, .mk-main-navigation .js-main-nav {
   position: absolute;
   white-space: nowrap;
   border-bottom: 5px solid  #f9b700;
