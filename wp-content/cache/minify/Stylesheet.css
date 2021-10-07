@@ -1990,7 +1990,7 @@ path.selected {
 
 /* Navigation links */
 .navbar a {
- float: right;
+ float: left;
  font-size: 16px;
  color: white;
  text-align: center;
@@ -2029,7 +2029,7 @@ nav ul {
   position: relative;
 }
 .nav > li {
-  float: right;
+  float: left;
   margin-right: 1px;
 }
 .nav > li > a {
