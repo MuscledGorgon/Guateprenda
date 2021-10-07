@@ -2040,7 +2040,8 @@ nav ul {
   border-bottom-color: #f9b700;
 }
 .nav li:hover > a {
-  color:#f9b700;
+  color:#fff;
+  background: #f9b700;
 }
 .nav > li:first-child {
   border-radius: 4px 0 0 4px;
