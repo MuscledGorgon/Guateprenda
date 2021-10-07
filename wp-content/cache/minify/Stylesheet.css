@@ -1996,7 +1996,7 @@ nav {
   .nav a {
     display:block;
     background: #fac42b;
-    color:#fff;
+    color:#0a4993;
     text-decoration: none;
     padding: .8em 1.8em;
     text-transform: uppercase;
@@ -2052,7 +2052,7 @@ nav {
      top: 50% ;
      right:5px;
    }
-   
+
    /* submenu positioning*/
 .nav ul {
   position: absolute;
