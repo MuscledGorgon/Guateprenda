@@ -2011,7 +2011,7 @@ nav ul {
   display:block;
   background: #fac42b;
   color: #0a4993;
-  line-height: 6vh;
+  line-height: 0vh;
   text-decoration: none;
   padding: 0.8em 1.8em;
   text-transform: uppercase;
@@ -2075,7 +2075,7 @@ nav ul {
   position: absolute;
   white-space: nowrap;
   border-bottom: 5px solid  #f9b700;
-
+  z-index: 1;
   left: -99999em;
 }
 .nav > li:hover > ul {
