@@ -2075,7 +2075,7 @@ nav ul {
   position: absolute;
   white-space: nowrap;
   border-bottom: 5px solid  #f9b700;
-  z-index: 1;
+
   left: -99999em;
 }
 .nav > li:hover > ul {
