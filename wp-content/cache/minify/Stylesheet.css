@@ -2020,13 +2020,14 @@ nav {
     margin-right: 1px;
   }
   .nav > li > a {
-    margin-bottom:1px;
+    margin-bottom:0px;
   }
   .nav > li:hover , .nav > li:hover >a{
     border-bottom-color:orange;
   }
   .nav li:hover > a {
     color:#fff;
+    background-color: #f9b700;
   }
   .nav > li:first-child  {
     border-radius: 4px 0 0 4px;
@@ -2051,7 +2052,7 @@ nav {
      height:0;
      width: 0;
      border: 5px solid transparent;
-     top: 50% ;
+     top: 50%;
      right:5px;
    }
 
@@ -2068,7 +2069,9 @@ nav {
   padding-top: 5px  ;
   min-width: 100%;
 }
-.nav > li li ul {  border-left:1px solid #fff;}
+.nav > li li ul {
+  border-left:1px solid #fff;
+}
 
 
 .nav > li li:hover > ul {
