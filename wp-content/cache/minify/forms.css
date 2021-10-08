@@ -40,7 +40,10 @@
 .motocicleta{
   float: left;
   width: 100%;
-  padding: 2%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   background-color: #082d77;
 }
 
