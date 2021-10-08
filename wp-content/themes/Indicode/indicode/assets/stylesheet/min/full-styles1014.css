@@ -257,49 +257,49 @@ a:active, a:focus, a:hover, a:link, a:visited {
   display: table
 }
 
-ul {
+/* ul {
   margin-bottom: 1em;
   margin-left: 1.5em;
   list-style-type: disc
-}
+} */
 
-ul li {
+/* ul li {
   margin-left: .85em
-}
+} */
 
-ul ul {
+/* ul ul {
   list-style-type: square
-}
+} */
 
-ul ul ul {
+/* ul ul ul {
   list-style-type: circle
-}
+} */
 
-ol {
+/* ol {
   margin-bottom: 1em;
   margin-left: 2.35em;
   list-style-position: outside;
   list-style-type: decimal
-}
+} */
 
-dt {
+/* dt {
   font-weight: 700;
   font-size: 110%;
   margin-bottom: .2em
-}
+} */
 
-dd {
+/* dd {
   margin: 0;
   padding: 0 0 1em 15px
-}
+} */
 
-ol ol, ul ol {
+/* ol ol, ul ol {
   margin-left: 2.5em
-}
+} */
 
-ol ol, ol ul, ul ol, ul ul {
+/* ol ol, ol ul, ul ol, ul ul {
   margin-bottom: 0
-}
+} */
 
 fieldset {
   padding: 1em;
