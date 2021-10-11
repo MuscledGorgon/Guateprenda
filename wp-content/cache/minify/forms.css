@@ -170,6 +170,13 @@
   width: 50%;
   float: left;
 }
+.divmcar{
+  padding-left: 5%;
+}
+
+.divenviar{
+  text-align: center;
+}
 
 @media screen and (max-width: 480px) {
 
