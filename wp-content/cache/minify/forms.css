@@ -168,6 +168,7 @@
 .divmdin, .divmst{
   padding-left: 5%;
   width: 50%;
+  float: left;
 }
 
 @media screen and (max-width: 480px) {
