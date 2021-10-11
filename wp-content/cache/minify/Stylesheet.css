@@ -1993,7 +1993,7 @@ nav {
     padding:0;
     list-style: none;
   }
-  .nav a {
+  .navs a {
     display:block;
     background: #fac42b;
     color:#0a4993;
@@ -2007,46 +2007,46 @@ nav {
     position: relative;
     z-index: 2;
   }
-  .nav{
+  .navs{
     vertical-align: top;
     display: inline-block;
     box-shadow: 1px -1px -1px 1px #000, -1px 1px -1px 1px #fff, 0 0 6px 3px #fff;
     border-radius:6px;
   }
-  .nav li{position: relative;}
-  .nav > li {
+  .navs li{position: relative;}
+  .navs > li {
     float:left;
     border-bottom: 0px #aaa solid;
     margin-right: 1px;
   }
-  .nav > li > a {
+  .navs > li > a {
     margin-bottom:0px;
   }
-  .nav > li:hover , .nav > li:hover >a{
+  .navs > li:hover , .navs > li:hover >a{
     border-bottom-color:orange;
   }
-  .nav li:hover > a {
+  .navs li:hover > a {
     color:#fff;
     background-color: #f9b700;
   }
-  .nav > li:first-child  {
+  .navs > li:first-child  {
     border-radius: 4px 0 0 4px;
   }
-  .nav > li:first-child>a{
+  .navs > li:first-child>a{
     border-radius: 4px 0 0 0;
   }
-  .nav > li:last-child  {
+  .navs > li:last-child  {
     border-radius: 0 0 4px 0;
     margin-right: 0;
   }
-  .nav > li:last-child >a{
+  .navs > li:last-child >a{
     border-radius: 0 4px 0 0;
   }
-  .nav li li a {
+  .navs li li a {
     margin-top:1px;
   }
 
-  .nav li a:first-child:nth-last-child(2):before {
+  .navs li a:first-child:nth-last-child(2):before {
      content:"";
      position: absolute;
      height:0;
@@ -2057,37 +2057,37 @@ nav {
    }
 
    /* submenu positioning*/
-.nav ul {
+.navs ul {
   position: absolute;
   white-space: nowrap;
   z-index: 2;
   left: -99999em;
 }
-.nav > li:hover > ul {
+.navs > li:hover > ul {
   left: auto;
   min-width: 100%;
 }
-.nav > li li ul {
+.navs > li li ul {
   border-left:1px solid #fff;
 }
 
 
-.nav > li li:hover > ul {
+.navs > li li:hover > ul {
  /* margin-left: 1px */
   left: 100%;
   top: -1px;
 }
 /* arrow hover styling */
-.nav > li > a:first-child:nth-last-child(2):before {
+.navs > li > a:first-child:nth-last-child(2):before {
   border-top-color: #aaa;
 }
-.nav > li:hover > a:first-child:nth-last-child(2):before {
+.navs > li:hover > a:first-child:nth-last-child(2):before {
 }
-.nav li li > a:first-child:nth-last-child(2):before {
+.navs li li > a:first-child:nth-last-child(2):before {
   border-left-color: #aaa;
   margin-top: -5px
 }
-.nav li li:hover > a:first-child:nth-last-child(2):before {
+.navs li li:hover > a:first-child:nth-last-child(2):before {
   border: 5px solid transparent;
   border-right-color: orange;
   right: 10px;
