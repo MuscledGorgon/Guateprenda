@@ -201,6 +201,7 @@
   color: #fac42b;
   font-size: 32px;
   font-weight: bold;
+  text-align: center;
 }
 
 @media screen and (max-width: 480px) {
