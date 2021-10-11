@@ -1,7 +1,7 @@
 .formularios{
   background-color: #082d77;
   padding: 5%;
-  height: 73vh;
+  height: 75vh;
 }
 
 .formulariomoto{
@@ -108,6 +108,7 @@
   color: #fac42b;
   font-size: 18px;
   font-weight: 600;
+  line-height: 2.5;
 }
 
 .divmod, .divanio, .divemp, .divtipo{
