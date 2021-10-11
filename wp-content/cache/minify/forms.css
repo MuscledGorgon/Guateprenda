@@ -178,6 +178,17 @@
   text-align: center;
 }
 
+.btn-enviar-moto {
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #082d77;
+  font-weight: bold;
+  font-size: 28px;
+  text-transform: uppercase;
+  background-color: #fac42b;
+  border: 0px;
+}
+
 @media screen and (max-width: 480px) {
 
   .articulosgeneral{
