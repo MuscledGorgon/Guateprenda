@@ -1984,11 +1984,11 @@ path.selected {
 
 
 
-nav {
+.navs nav {
     display: block;
     text-align: center;
   }
-  nav ul {
+  .navs nav ul {
     margin: 0;
     padding:0;
     list-style: none;
