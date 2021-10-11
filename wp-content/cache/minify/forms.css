@@ -190,6 +190,11 @@
   border: 0px;
 }
 
+.btn-enviar-moto:hover{
+  background-color: #ffffff;
+  color: #082d77;
+}
+
 .motoemp{
   color: #ffffff;
   font-size: 32px;
