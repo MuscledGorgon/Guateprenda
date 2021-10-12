@@ -214,9 +214,69 @@
 .linea-titulo{
   color: #fac42b;
   opacity: 1;
-  height: 4px;
+  height: 4px !important;
 }
 
+
+
+@media screen and (max-width: 780px) {
+
+  .articulosgeneral{
+    width: calc(100% - 5%);
+    padding: 6%;
+  }
+
+  .articulosjoyeria{
+    width: calc(100% - 5%);
+    padding: 6%;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-color: #ffffff;
+  }
+
+  .motocicleta{
+    width: calc(100% - 5%);
+    padding: 6%;
+  }
+
+  .artgrl, .artjoy{
+    color: #ffffff !important;
+    text-align: center;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    font-family: Open Sans;
+    border-radius: 30px;
+    border: 2px solid;
+    border-color: #fac42b;
+    background-color: #fac42b;
+    padding-left: 5px;
+    text-shadow: 1px 1px 2px #000
+  }
+
+  .pgrl, .pjoy{
+    color: #ffffff;
+    font-size: 12spx;
+    font-weight: 300;
+    text-align: justify;
+  }
+
+  .motoemp{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .motorec{
+    color: #fac42b;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+}
 @media screen and (max-width: 480px) {
 
   .articulosgeneral{
@@ -239,7 +299,7 @@
     padding: 6%;
   }
 
-  .artgrl, .artjoy, .motoemp{
+  .artgrl, .artjoy{
     color: #ffffff !important;
     text-align: center;
     font-size: 14px !important;
@@ -265,9 +325,29 @@
     text-align: justify;
   }
 
+  .motoemp{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .motorec{
+    color: #fac42b;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 375px) {
+
+  .formularios{
+    background-color: #082d77;
+    padding: 0%;
+    height: 100vh;
+  }
 
   .articulosgeneral{
     width: calc(100% - 5%);
@@ -289,10 +369,10 @@
     padding: 6%;
   }
 
-  .artgrl, .artjoy, .motoemp{
+  .artgrl, .artjoy{
     color: #ffffff !important;
     text-align: center;
-    font-size: 20px !important;
+    font-size: 14px !important;
     font-weight: 600 !important;
     font-family: Open Sans;
     border-radius: 30px;
@@ -303,11 +383,46 @@
     text-shadow: 1px 1px 2px #000
   }
 
+  .divmod, .divanio, .divemp, .divtipo, .divtel, .divmail, .divdin, .divart{
+    float: left;
+    width: 100%;
+  }
+
   .pgrl, .pjoy{
     color: #ffffff;
-    font-size: 12spx;
+    font-size: 11px;
     font-weight: 300;
     text-align: justify;
+  }
+
+  .motoemp{
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .motorec{
+    color: #fac42b;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .lablg, .lablj, .lablm{
+    color: #fac42b;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 2.5;
+  }
+
+  .divmdin, .divmst, .divmtel, .divmmail{
+    padding-left: 5%;
+    width: 100%;
+    float: left;
+  }
+  .divmcar, .divmdc {
+    padding-left: 5%;
   }
 
 }
