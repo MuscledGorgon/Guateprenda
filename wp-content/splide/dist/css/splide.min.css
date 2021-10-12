@@ -269,3 +269,25 @@
 	right: .5em;
 	transform: translateY(50%)
 }
+
+@media screen and (max-width: 810px) {
+	.splide__slide{
+		max-height: 350px;
+		max-width: 810px;
+	}
+}
+
+
+@media screen and (max-width: 780px) {
+	.splide__slide{
+		max-height: 350px;
+		max-width: 780px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.splide__slide{
+		max-height: 160px;
+		max-width: 375px;
+	}
+}
