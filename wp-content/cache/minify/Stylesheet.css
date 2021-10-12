@@ -2092,3 +2092,15 @@ nav {
   border-right-color: orange;
   right: 10px;
 }
+
+@media screen and (max-width: 480px) {
+  .navs{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .navs{
+    display: none;
+  }
+}
