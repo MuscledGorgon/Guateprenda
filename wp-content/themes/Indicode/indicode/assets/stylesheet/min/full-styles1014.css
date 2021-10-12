@@ -4482,7 +4482,7 @@ body:not(.mk-boxed-enabled).dashboard-opened .sticky-style-fixed.header-style-1 
 .mk-header-toolbar {
   width: 100%;
   position: relative;
-  height: 35px;
+  /* height: 35px; */
   line-height: 35px
 }
 
@@ -4491,7 +4491,8 @@ body:not(.mk-boxed-enabled).dashboard-opened .sticky-style-fixed.header-style-1 
 }
 
 .mk-toolbar-holder {
-  padding: 0 20px
+  padding: 0 20px;
+  float: right;
 }
 
 .header-toolbar-contact, .mk-header-date, .mk-header-login, .mk-header-signup, .mk-header-tagline, .mk-header-toolbar .mk-header-searchform, .mk-language-nav>a {
