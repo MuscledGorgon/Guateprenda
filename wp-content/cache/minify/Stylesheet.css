@@ -2012,6 +2012,7 @@ nav {
     display: inline-block;
     box-shadow: 1px -1px -1px 1px #000, -1px 1px -1px 1px #fff, 0 0 6px 3px #fff;
     border-radius:6px;
+    float: right;
   }
   .navs li{position: relative;}
   .navs > li {
@@ -2097,8 +2098,8 @@ nav {
   position:fixed;
   width:60px;
   height:60px;
-  bottom:40px;
-  left:40px;
+  bottom:50px;
+  left:50px;
   background-color:#25d366;
   color:#FFF;
   border-radius:50px;
