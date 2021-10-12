@@ -213,6 +213,8 @@
 
 .linea-titulo{
   color: #fac42b;
+  opacity: 1;
+  height: 4px;
 }
 
 @media screen and (max-width: 480px) {
