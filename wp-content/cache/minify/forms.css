@@ -194,7 +194,7 @@
   background-color: #ffffff;
   color: #082d77;
   transition: all .2s ease-in-out;
-  transform: scale(0.5);
+  transform: scale(1);
 }
 
 .motoemp{
