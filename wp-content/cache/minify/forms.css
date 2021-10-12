@@ -168,11 +168,12 @@
 
 .divmdin, .divmst{
   padding-left: 5%;
-  width: 50%;
+  width: 100%;
   float: left;
 }
 .divmcar, .divmdc, .divmtel, .divmmail{
   padding-left: 5%;
+  width: 100%;
 }
 
 .divenviar{
