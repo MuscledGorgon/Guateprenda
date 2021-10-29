@@ -17,7 +17,7 @@ $mensaje .= "\r\nMensaje del Usuario: $" . $_POST['mensaje'] . "\r\n";
 $mensaje .= "\r\nTelefono de contacto: " . $_POST['telefono'] . "\r\n";
 $mensaje .= "\r\nEnviado el: " . date('d/m/Y', time());
 
-$para = "";
+$para = "servicioalcliente@ezcorp.com";
 $asunto = 'Contacto';
 
 mail($para, $asunto, utf8_decode($mensaje), $header);
