@@ -1,0 +1,127 @@
+<IfModule mod_expires.c>
+  # Data interchange
+    AddType application/atom+xml      atom
+    AddType application/json          json map topojson
+    AddType application/ld+json       jsonld
+    AddType application/rss+xml       rss
+    AddType application/geo+json      geojson
+    AddType application/rdf+xml       rdf
+    AddType application/xml           xml
+  # JavaScript
+    AddType text/javascript           js mjs
+  # Manifest files
+    AddType application/manifest+json     webmanifest
+    AddType application/x-web-app-manifest+json         webapp
+    AddType text/cache-manifest           appcache
+  # Media files
+    AddType audio/mp4                     f4a f4b m4a
+    AddType audio/ogg                     oga ogg opus
+    AddType image/bmp                     bmp
+    AddType image/svg+xml                 svg svgz
+    AddType image/webp                    webp
+    AddType video/mp4                     f4v f4p m4v mp4
+    AddType video/ogg                     ogv
+    AddType video/webm                    webm
+    AddType image/x-icon    cur ico
+  # HEIF Images
+    AddType image/heic                    heic
+    AddType image/heif                    heif
+  # HEIF Image Sequence
+    AddType image/heics                   heics
+    AddType image/heifs                   heifs
+  # AVIF Images
+    AddType image/avif                    avif
+  # AVIF Image Sequence
+    AddType image/avis                    avis
+  # WebAssembly
+    AddType application/wasm              wasm
+  # Web fonts
+    AddType font/woff                         woff
+    AddType font/woff2                        woff2
+    AddType application/vnd.ms-fontobject                eot
+    AddType font/ttf                          ttf
+    AddType font/collection                   ttc
+    AddType font/otf                          otf
+  # Other
+    AddType application/octet-stream          safariextz
+    AddType application/x-bb-appworld         bbaw
+    AddType application/x-chrome-extension    crx
+    AddType application/x-opera-extension     oex
+    AddType application/x-xpinstall           xpi
+    AddType text/calendar                     ics
+    AddType text/markdown                     markdown md
+    AddType text/vcard                        vcard vcf
+    AddType text/vnd.rim.location.xloc        xloc
+    AddType text/vtt                          vtt
+    AddType text/x-component                  htc
+</IfModule>
+
+<IfModule mod_mime.c>
+  AddDefaultCharset utf-8
+</IfModule>
+
+<IfModule mod_mime.c>
+  AddCharset utf-8 .appcache \
+    .bbaw \
+    .css \
+    .htc \
+    .ics \
+    .js \
+    .json \
+    .manifest \
+    .map \
+    .markdown \
+    .md \
+    .mjs \
+    .topojson \
+    .vtt \
+    .vcard \
+    .vcf \
+    .webmanifest \
+    .xloc
+</IfModule>
+
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+</IfModule>
+
+<IfModule mod_deflate.c>
+  <IfModule mod_filter.c>
+    AddOutputFilterByType DEFLATE "application/atom+xml" \
+      "application/javascript" \
+      "application/json" \
+      "application/ld+json" \
+      "application/manifest+json" \
+      "application/rdf+xml" \
+      "application/rss+xml" \
+      "application/schema+json" \
+      "application/geo+json" \
+      "application/vnd.ms-fontobject" \
+      "application/wasm" \
+      "application/x-font-ttf" \
+      "application/x-javascript" \
+      "application/x-web-app-manifest+json" \
+      "application/xhtml+xml" \
+      "application/xml" \
+      "font/eot" \
+      "font/opentype" \
+      "font/otf" \
+      "font/ttf" \
+      "image/bmp" \
+      "image/svg+xml" \
+      "image/vnd.microsoft.icon" \
+      "text/cache-manifest" \
+      "text/calendar" \
+      "text/css" \
+      "text/html" \
+      "text/javascript" \
+      "text/plain" \
+      "text/markdown" \
+      "text/vcard" \
+      "text/vnd.rim.location.xloc" \
+      "text/vtt" \
+      "text/x-component" \
+      "text/x-cross-domain-policy" \
+      "text/xml"
+  </IfModule>
+</IfModule>
