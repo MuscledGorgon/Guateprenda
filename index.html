@@ -213,6 +213,67 @@
       }
     };
   </script> -->
+
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-P7QNXXS');
+  </script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src=https://www.googletagmanager.com/gtag/js?id=G-C88QJG56C4></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-C88QJG56C4');
+  </script>
+
+  <!-- Facebook Pixel Code -->
+  <script>
+    ! function(f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function() {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1018904308905566');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none" src=https://www.facebook.com/tr?id=1018904308905566&ev=PageView&noscript=1 /></noscript>
+  <!-- End Facebook Pixel Code -->
+
+  <meta name="facebook-domain-verification" content="oju4neowcc93itpcb6yjl0hobcjlb8" />
+  
 </head>
 
 <body class="home page-template-default page page-id-5 loading wpb-js-composer js-comp-ver-5.2.1 vc_responsive animsition" itemscope="itemscope" itemtype="https://schema.org/WebPage" data-adminbar="">
@@ -265,9 +326,9 @@
                     <li><a href="tiendas/index.html">Tiendas</a></li>
                     <li><a href="cliente-nuevo/index.html">¿Cliente nuevo?</a></li>
                     <li><a href="plan-de-pago/index.html">Empeño</a>
-                      <!-- <ul>
+                      <ul>
 												<li><a href="plan-de-pago/moto.html">Empeño Moto</a></li>
-											</ul> -->
+											</ul>
                     </li>
                     <li><a href="contacto/index.html">Contacto</a></li>
                   </ul>
@@ -302,9 +363,9 @@
                 <li><a href="tiendas/index.html">Tiendas</a></li>
                 <li><a href="cliente-nuevo/index.html">¿Cliente nuevo?</a></li>
                 <li><a href="plan-de-pago/index.html">Empeño</a>
-                  <!-- <ul>
+                  <ul>
 										<li><a href="plan-de-pago/moto.html">Empeño Moto</a></li>
-									</ul> -->
+									</ul>
                 </li>
                 <li><a href="contacto/index.html">Contacto</a></li>
               </ul>
@@ -2048,210 +2109,10 @@
     };
   </script>
   <script type='text/javascript' src='wp-content/plugins/row-scroll-animation/row_scroll/js/min/script-min5152.js?ver=1.0'></script>
-  <!-- <script>
-    var htmlDiv = document.getElementById("rs-plugin-settings-inline-css");
-    var htmlDivCss = "";
-    if (htmlDiv) {
-      htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
-    } else {
-      var htmlDiv = document.createElement("div");
-      htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
-      document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
-    }
-  </script> -->
-  <!-- <script type="text/javascript">
-    setREVStartSize({
-      c: jQuery('#rev_slider_1_1'),
-      responsiveLevels: [1240, 1024, 778, 480],
-      gridwidth: [1240, 1024, 778, 480],
-      gridheight: [748, 468, 460, 250],
-      sliderLayout: 'fullwidth'
-    });
 
-    var revapi1,
-      tpj = jQuery;
-
-    tpj(document).ready(function() {
-      if (tpj("#rev_slider_1_1").revolution == undefined) {
-        revslider_showDoubleJqueryError("#rev_slider_1_1");
-      } else {
-        revapi1 = tpj("#rev_slider_1_1").show().revolution({
-          sliderType: "standard",
-          jsFileLocation: "//www.guateprenda.com/wp-content/plugins/banner/public/assets/js/",
-          sliderLayout: "fullwidth",
-          dottedOverlay: "none",
-          delay: 9000,
-          navigation: {
-            keyboardNavigation: "off",
-            keyboard_direction: "horizontal",
-            mouseScrollNavigation: "off",
-            mouseScrollReverse: "default",
-            onHoverStop: "off",
-            touch: {
-              touchenabled: "on",
-              touchOnDesktop: "on",
-              swipe_threshold: 75,
-              swipe_min_touches: 1,
-              swipe_direction: "horizontal",
-              drag_block_vertical: false
-            },
-            arrows: {
-              style: "hesperiden",
-              enable: true,
-              hide_onmobile: false,
-              hide_onleave: true,
-              hide_delay: 200,
-              hide_delay_mobile: 1200,
-              tmp: '',
-              left: {
-                h_align: "left",
-                v_align: "center",
-                h_offset: 20,
-                v_offset: 0
-              },
-              right: {
-                h_align: "right",
-                v_align: "center",
-                h_offset: 20,
-                v_offset: 0
-              }
-            }
-          },
-          responsiveLevels: [1240, 1024, 778, 480],
-          visibilityLevels: [1240, 1024, 778, 480],
-          gridwidth: [1240, 1024, 778, 480],
-          gridheight: [748, 468, 460, 250],
-          lazyType: "none",
-          shadow: 2,
-          spinner: "spinner2",
-          stopLoop: "off",
-          stopAfterLoops: -1,
-          stopAtSlide: -1,
-          shuffle: "off",
-          autoHeight: "off",
-          disableProgressBar: "on",
-          hideThumbsOnMobile: "off",
-          hideSliderAtLimit: 0,
-          hideCaptionAtLimit: 0,
-          hideAllCaptionAtLilmit: 0,
-          debugMode: false,
-          fallbacks: {
-            simplifyAll: "off",
-            nextSlideOnWindowFocus: "off",
-            disableFocusListener: false,
-          }
-        });
-      }
-
-    }); /*ready*/
-  </script> -->
-  <!-- <script>
-    var htmlDiv = document.getElementById("rs-plugin-settings-inline-css");
-    var htmlDivCss = "";
-    if (htmlDiv) {
-      htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
-    } else {
-      var htmlDiv = document.createElement("div");
-      htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
-      document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
-    }
-  </script> -->
-  <!-- <script type="text/javascript">
-    setREVStartSize({
-      c: jQuery('#rev_slider_2_2'),
-      responsiveLevels: [1240, 1024, 778, 480],
-      gridwidth: [1240, 1024, 778, 480],
-      gridheight: [748, 468, 460, 250],
-      sliderLayout: 'fullwidth'
-    });
-
-    var revapi2,
-      tpj = jQuery;
-
-    tpj(document).ready(function() {
-      if (tpj("#rev_slider_2_2").revolution == undefined) {
-        revslider_showDoubleJqueryError("#rev_slider_2_2");
-      } else {
-        revapi2 = tpj("#rev_slider_2_2").show().revolution({
-          sliderType: "standard",
-          jsFileLocation: "//www.guateprenda.com/wp-content/plugins/banner/public/assets/js/",
-          sliderLayout: "fullwidth",
-          dottedOverlay: "none",
-          delay: 9000,
-          navigation: {
-            keyboardNavigation: "off",
-            keyboard_direction: "horizontal",
-            mouseScrollNavigation: "off",
-            mouseScrollReverse: "default",
-            onHoverStop: "off",
-            touch: {
-              touchenabled: "on",
-              touchOnDesktop: "on",
-              swipe_threshold: 75,
-              swipe_min_touches: 1,
-              swipe_direction: "horizontal",
-              drag_block_vertical: false
-            },
-            arrows: {
-              style: "hesperiden",
-              enable: true,
-              hide_onmobile: false,
-              hide_onleave: true,
-              hide_delay: 200,
-              hide_delay_mobile: 1200,
-              tmp: '',
-              left: {
-                h_align: "left",
-                v_align: "center",
-                h_offset: 20,
-                v_offset: 0
-              },
-              right: {
-                h_align: "right",
-                v_align: "center",
-                h_offset: 20,
-                v_offset: 0
-              }
-            }
-          },
-          responsiveLevels: [1240, 1024, 778, 480],
-          visibilityLevels: [1240, 1024, 778, 480],
-          gridwidth: [1240, 1024, 778, 480],
-          gridheight: [748, 468, 460, 250],
-          lazyType: "none",
-          shadow: 0,
-          spinner: "spinner2",
-          stopLoop: "off",
-          stopAfterLoops: -1,
-          stopAtSlide: -1,
-          shuffle: "off",
-          autoHeight: "off",
-          disableProgressBar: "on",
-          hideThumbsOnMobile: "off",
-          hideSliderAtLimit: 0,
-          hideCaptionAtLimit: 0,
-          hideAllCaptionAtLilmit: 0,
-          debugMode: false,
-          fallbacks: {
-            simplifyAll: "off",
-            nextSlideOnWindowFocus: "off",
-            disableFocusListener: false,
-          }
-        });
-      }
-
-    });
-    /*ready*/
-  </script> -->
-  <!-- <script type="text/javascript">
-    window.get = {};
-    window.get.captcha = function(enteredCaptcha) {
-      return jQuery.get(ajaxurl, {
-        action: "indi_validate_captcha_input",
-        captcha: enteredCaptcha
-      });
-    };
-  </script> -->
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src=https://www.googletagmanager.com/ns.html?id=GTM-P7QNXXS height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
 </body>
 
