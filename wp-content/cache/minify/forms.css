@@ -122,6 +122,10 @@
   width: 50%;
 }
 
+.divart, .divmail{
+  padding-left: 5%
+}
+
 .divcar{
   float: left;
   width: auto;
